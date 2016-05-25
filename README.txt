@@ -1,6 +1,5 @@
 ****************************************************************
-Repository to illustrate algorithm & data structure design by
-employing C language.
+Employing C language to illustrate algorithms & data structures.
 ****************************************************************
 Arrays:
 1. Two Sum
