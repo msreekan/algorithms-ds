@@ -1,25 +1,31 @@
 ******************************************************************************
-Problem Statement: Longest Palindromic Substring
+Problem Statement: Longest Substring Without Repeating Characters
 ******************************************************************************
-Given a string S, find the longest palindromic substring in S. You may assume 
-that the maximum length of S is 1000, and there exists one unique longest 
-palindromic substring.
+Given a string, find the length of the longest substring without repeating 
+characters.
+
+Examples:
+Given "abcabcbb", the answer is "abc", which the length is 3.
+Given "bbbbb", the answer is "b", with the length of 1.
+Given "pwwkew", the answer is "wke", with the length of 3. Note that the 
+answer must be a substring, "pwke" is a subsequence and not a substring.
 
 ******************************************************************************
-URL : https://leetcode.com/problems/longest-palindromic-substring/
+URL : https://leetcode.com/problems/longest-substring-without-repeating-characters/
 ******************************************************************************
 
 ******************************************************************************
 Notes: 
 ******************************************************************************
-Time Complexity : O(n^2)
+Time Complexity : O(n)
 Space Complexity : O(1)
 
-Algorithm starts scanning from the center of the string to optimize for best
-case scenarious.
+Algorithm optimizes the speed for the use cases where there are no repeating 
+characters in the input string.
 ******************************************************************************
 
 ******************************************************************************
 Other Similar Problems: 
 ******************************************************************************
-1. Longest Substring Without Repeating Characters
+1. Longest Palindromic Substring
+2. Longest Common Prefix
