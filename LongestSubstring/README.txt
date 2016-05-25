@@ -1,15 +1,17 @@
 ******************************************************************************
-Problem Statement: Add Two Numbers
+Problem Statement: Longest Substring Without Repeating Characters
 ******************************************************************************
-You are given two linked lists representing two non-negative numbers. The 
-digits are stored in reverse order and each of their nodes contain a single 
-digit. Add the two numbers and return it as a linked list.
+Given a string, find the length of the longest substring without repeating 
+characters.
 
-Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
-Output: 7 -> 0 -> 8
+Examples:
+Given "abcabcbb", the answer is "abc", which the length is 3.
+Given "bbbbb", the answer is "b", with the length of 1.
+Given "pwwkew", the answer is "wke", with the length of 3. Note that the 
+answer must be a substring, "pwke" is a subsequence and not a substring.
 
 ******************************************************************************
-URL : https://leetcode.com/problems/add-two-numbers/
+URL : https://leetcode.com/problems/longest-substring-without-repeating-characters/
 ******************************************************************************
 
 ******************************************************************************
@@ -18,6 +20,8 @@ Notes:
 Time Complexity : O(n)
 Space Complexity : O(1)
 
+Algorithm optimizes the speed for the use cases where there are no repeating 
+characters in the input string.
 ******************************************************************************
 
 ******************************************************************************
