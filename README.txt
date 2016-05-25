@@ -12,3 +12,4 @@ Linked Lists
 
 Strings:
 1. Longest Substring Without Repeating Characters
+2. Longest Palindromic Substring
