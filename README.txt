@@ -6,12 +6,13 @@ All the solutions were submitted & tested at LeetCode:
 https://leetcode.com/problemset/algorithms/
 
 ****************************************************************
-Problem Count : 22
+Problem Count : 23
 ****************************************************************
 
 Puzzles:
 1. Container with most water
 2. Letter Combinations of a PhoneNumber
+3. Trapping Rain Water
 
 Arrays:
 1. Two Sum
@@ -23,6 +24,7 @@ Arrays:
 7. Search In Rotated Sorted Array
 8. Search for a range
 9. Search Insert Position
+10.First Missing Positive
 
 Linked Lists
 1. Add Two Numbers 
