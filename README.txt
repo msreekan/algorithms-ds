@@ -6,7 +6,7 @@ All the solutions were submitted & tested at LeetCode:
 https://leetcode.com/problemset/algorithms/
 
 ****************************************************************
-Problem Count : 17
+Problem Count : 20
 ****************************************************************
 
 Puzzles:
@@ -18,6 +18,8 @@ Arrays:
 2. 3 Sum Closest
 3. 3 Sum
 4. 4 Sum
+5. Remove Duplicates from Sorted Array
+6. Remove Element
 
 Linked Lists
 1. Add Two Numbers 
@@ -35,3 +37,4 @@ Strings:
 Math:
 1. Reverse integer (Handles overflow)
 2. Palindrome Number (In place and recursive)
+3. Divide Two Integers
