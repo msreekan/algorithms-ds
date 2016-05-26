@@ -18,9 +18,3 @@ Space Complexity : O(1)
 Algorithm starts scanning from the center of the string to optimize for best
 case scenarious.
 ******************************************************************************
-
-******************************************************************************
-Other Similar Problems: 
-******************************************************************************
-1. Longest Substring Without Repeating Characters
-2. Longest Common Prefix

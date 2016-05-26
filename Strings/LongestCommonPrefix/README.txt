@@ -15,10 +15,4 @@ Time Complexity : O(n * m)
 Space Complexity : O(1)
 
 Simple O(n * m) linear scanning of the array
-******************************************************************************
-
-******************************************************************************
-Other Similar Problems: 
-******************************************************************************
-1. Longest Palindromic Substring
-2. Longest Substring Without Repeating Characters
+****************************************************************************** 

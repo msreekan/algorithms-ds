@@ -21,7 +21,3 @@ Algorithms starts scanning the array from both the ends while seeking to
 increase the overall container height. Note that the container volume 
 increases only if the decreasing width is compensated by an increased height.
 ******************************************************************************
-
-******************************************************************************
-Other Similar Problems: 
-******************************************************************************

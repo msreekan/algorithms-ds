@@ -18,8 +18,3 @@ Create a heap out of the list. Allow the smallest element to rise up to the
 root, this ensures a O(nLog(m)) complexity versus the brute force O(n^2)
 
 ******************************************************************************
-
-******************************************************************************
-Other Similar Problems: 
-******************************************************************************
-1. Merge Two Sorted Lists

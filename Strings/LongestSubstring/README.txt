@@ -23,9 +23,3 @@ Space Complexity : O(1)
 Algorithm optimizes the speed for the use cases where there are no repeating 
 characters in the input string.
 ******************************************************************************
-
-******************************************************************************
-Other Similar Problems: 
-******************************************************************************
-1. Longest Palindromic Substring
-2. Longest Common Prefix

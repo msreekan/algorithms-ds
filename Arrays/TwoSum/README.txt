@@ -27,10 +27,3 @@ Allows compile time options for heap and quick sort. Also provides an alternate
 O(n Log(n)) algorithm employing binary search.
 
 ******************************************************************************
-
-******************************************************************************
-Other Similar Problems: 
-******************************************************************************
-1. 3 Sum Closest
-2. 3 Sum
-4. 4 Sum

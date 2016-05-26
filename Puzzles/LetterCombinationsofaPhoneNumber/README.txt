@@ -24,7 +24,3 @@ Typical recursive mechanism to generate combinations. Each letter combination
 is pushed to the stack and once generated it will be moved to the output array. 
 
 ******************************************************************************
-
-******************************************************************************
-Other Similar Problems: 
-******************************************************************************
