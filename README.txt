@@ -7,6 +7,7 @@ https://leetcode.com/problemset/algorithms/
 
 Puzzles:
 1. Container with most water
+2. Letter Combinations of a PhoneNumber
 
 Arrays:
 1. Two Sum
