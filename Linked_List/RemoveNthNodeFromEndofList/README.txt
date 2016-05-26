@@ -1,15 +1,16 @@
 ******************************************************************************
-Problem Statement: Add Two Numbers
+Problem Statement: Remove Nth Node From End of List
 ******************************************************************************
-You are given two linked lists representing two non-negative numbers. The 
-digits are stored in reverse order and each of their nodes contain a single 
-digit. Add the two numbers and return it as a linked list.
+Given a linked list, remove the nth node from the end of list and return its
+head. For example,
 
-Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
-Output: 7 -> 0 -> 8
+Given linked list: 1->2->3->4->5, and n = 2.
+After removing the second node from the end, the linked list becomes 
+1->2->3->5.
 
+Given n will always be valid. Try to do this in one pass.
 ******************************************************************************
-URL : https://leetcode.com/problems/add-two-numbers/
+URL : https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 ******************************************************************************
 
 ******************************************************************************
@@ -23,4 +24,4 @@ Space Complexity : O(1)
 ******************************************************************************
 Other Similar Problems: 
 ******************************************************************************
-1. Remove Nth Node From End of List
+1. Add Two Numbers
