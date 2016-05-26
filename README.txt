@@ -6,7 +6,7 @@ All the solutions were submitted & tested at LeetCode:
 https://leetcode.com/problemset/algorithms/
 
 ****************************************************************
-Problem Count : 20
+Problem Count : 22
 ****************************************************************
 
 Puzzles:
@@ -20,6 +20,8 @@ Arrays:
 4. 4 Sum
 5. Remove Duplicates from Sorted Array
 6. Remove Element
+7. Search In Rotated Sorted Array
+8. Search for a range
 
 Linked Lists
 1. Add Two Numbers 
