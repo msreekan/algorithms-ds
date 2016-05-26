@@ -6,7 +6,7 @@ All the solutions were submitted & tested at LeetCode:
 https://leetcode.com/problemset/algorithms/
 
 ****************************************************************
-Problem Count : 16
+Problem Count : 17
 ****************************************************************
 
 Puzzles:
@@ -24,6 +24,7 @@ Linked Lists
 2. Merge Two Sorted Lists
 3. Remove Nth Node From End of List
 4. Merge k Sorted Lists
+5. Swap Nodes in Pairs
 
 Strings:
 1. Longest Substring Without Repeating Characters

@@ -1,16 +1,10 @@
 ******************************************************************************
-Problem Statement: Remove Nth Node From End of List
+Problem Statement: Swap Nodes in Pairs
 ******************************************************************************
-Given a linked list, remove the nth node from the end of list and return its
-head. For example,
+Given a linked list, swap every two adjacent nodes and return its head.
 
-Given linked list: 1->2->3->4->5, and n = 2.
-After removing the second node from the end, the linked list becomes 
-1->2->3->5.
-
-Given n will always be valid. Try to do this in one pass.
 ******************************************************************************
-URL : https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+URL : https://leetcode.com/problems/swap-nodes-in-pairs/
 ******************************************************************************
 
 ******************************************************************************
@@ -25,4 +19,4 @@ Space Complexity : O(1)
 Other Similar Problems: 
 ******************************************************************************
 1. Add Two Numbers
-2. Swap Nodes in Pairs
+2. Remove Nth Node From End of List
