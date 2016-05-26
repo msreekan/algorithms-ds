@@ -22,6 +22,7 @@ Arrays:
 6. Remove Element
 7. Search In Rotated Sorted Array
 8. Search for a range
+9. Search Insert Position
 
 Linked Lists
 1. Add Two Numbers 
