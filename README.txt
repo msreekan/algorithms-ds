@@ -6,13 +6,17 @@ All the solutions were submitted & tested at LeetCode:
 https://leetcode.com/problemset/algorithms/
 
 ****************************************************************
-Problem Count : 23
+Problem Count : 30
 ****************************************************************
 
 Puzzles:
 1. Container with most water
 2. Letter Combinations of a PhoneNumber
 3. Trapping Rain Water
+4. Jump Game
+
+Dynamic Programming:
+1. Climbing Stairs
 
 Arrays:
 1. Two Sum
@@ -25,6 +29,8 @@ Arrays:
 8. Search for a range
 9. Search Insert Position
 10.First Missing Positive
+11.Merge Intervals  
+12.Search a 2D Matrix
 
 Linked Lists
 1. Add Two Numbers 
@@ -32,6 +38,7 @@ Linked Lists
 3. Remove Nth Node From End of List
 4. Merge k Sorted Lists
 5. Swap Nodes in Pairs
+6. Rotate List
 
 Strings:
 1. Longest Substring Without Repeating Characters
