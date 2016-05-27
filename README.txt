@@ -6,7 +6,7 @@ All the solutions were submitted & tested at LeetCode:
 https://leetcode.com/problemset/algorithms/
 
 ****************************************************************
-Problem Count : 30
+Problem Count : 33
 ****************************************************************
 
 Puzzles:
@@ -31,6 +31,8 @@ Arrays:
 10.First Missing Positive
 11.Merge Intervals  
 12.Search a 2D Matrix
+13.Remove Duplicates from Sorted Array II
+14.Remove Duplicates from SortedList
 
 Linked Lists
 1. Add Two Numbers 
@@ -39,6 +41,7 @@ Linked Lists
 4. Merge k Sorted Lists
 5. Swap Nodes in Pairs
 6. Rotate List
+7. Remove Duplicates from Sorted List II
 
 Strings:
 1. Longest Substring Without Repeating Characters
@@ -49,4 +52,4 @@ Strings:
 Math:
 1. Reverse integer (Handles overflow)
 2. Palindrome Number (In place and recursive)
-3. Divide Two Integers
+3. Divide Integers without divsion, mode or multiplication operators
