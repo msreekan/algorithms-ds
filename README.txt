@@ -6,7 +6,7 @@ All the solutions were submitted & tested at LeetCode:
 https://leetcode.com/problemset/algorithms/
 
 ****************************************************************
-Problem Count : 35
+Problem Count : 38
 ****************************************************************
 
 Puzzles:
@@ -14,6 +14,7 @@ Puzzles:
 2. Letter Combinations of a PhoneNumber
 3. Trapping Rain Water
 4. Jump Game
+5. House Robber III
 
 Dynamic Programming:
 1. Climbing Stairs
@@ -45,6 +46,7 @@ Linked Lists
 6. Rotate List
 7. Remove Duplicates from Sorted List II
 8. Partition List
+9. Reverse List II
 
 Strings:
 1. Longest Substring Without Repeating Characters
