@@ -18,6 +18,7 @@ Puzzles:
 Dynamic Programming:
 1. Climbing Stairs
 2. Largest Rectangle in Histogram
+3. Decode Ways
 
 Arrays:
 1. Two Sum
