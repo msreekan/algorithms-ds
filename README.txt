@@ -6,7 +6,7 @@ All the solutions were submitted & tested at LeetCode:
 https://leetcode.com/problemset/algorithms/
 
 ****************************************************************
-Problem Count : 33
+Problem Count : 35
 ****************************************************************
 
 Puzzles:
@@ -17,6 +17,7 @@ Puzzles:
 
 Dynamic Programming:
 1. Climbing Stairs
+2. Largest Rectangle in Histogram
 
 Arrays:
 1. Two Sum
@@ -42,6 +43,7 @@ Linked Lists
 5. Swap Nodes in Pairs
 6. Rotate List
 7. Remove Duplicates from Sorted List II
+8. Partition List
 
 Strings:
 1. Longest Substring Without Repeating Characters
