@@ -16,4 +16,6 @@ Notes:
 Time Complexity : O(n)
 Space Complexity : O(n)
 
+The problem can also be merely reduced to that of generating a fobonacci 
+series.
 ******************************************************************************
