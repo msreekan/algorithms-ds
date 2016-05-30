@@ -15,4 +15,6 @@ Notes:
 Time Complexity : O(n^2)
 Space Complexity : O(n)
 
+Implements both dynamic programming and the method using the stack.
+
 ******************************************************************************
