@@ -7,9 +7,169 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define ENABLE_O_N2 1
+#define ENABLE_O_NLOGN 1
 
-#if ENABLE_O_N
+#if ENABLE_O_NLOGN
+/***********************************************************************/
+/* search_sg_tree: Search a segment tree                               */
+/*                                                                     */
+/***********************************************************************/
+int search_sg_tree(int *arr, int *a, int soff, int ss, int se, int segs,
+                   int sege)
+{
+    int mid, val;
+
+    /* We are at the leaf node */
+    if (ss == se)
+        return ss;
+
+    /* Minimum Value found */
+    if ((ss == segs) && (se == sege))
+        return arr[soff];
+
+    /* Calculate the middle of the search window */
+    mid = segs + ((sege - segs + 1) / 2) - 1;
+
+    /* Search the left sub-tree */
+    if (se <= mid)
+        val = search_sg_tree(arr, a, (soff * 2) + 1, ss, se, segs, mid);
+
+    /* Search the right sub-tree */
+    else if (ss > mid)
+        val = search_sg_tree(arr, a, (soff * 2) + 2, ss, se, mid + 1,
+                             sege);
+    /* Else there is an overlap, so we need to refine and search
+    both the subtrees */
+    else
+    {
+        int val1, val2;
+
+        /* Get the minimum values from both the subtrees */
+        val1 = search_sg_tree(arr, a, (soff * 2) + 1, ss, mid, segs, mid);
+        val2 = search_sg_tree(arr, a, (soff * 2) + 2, mid + 1, se,
+                                  mid + 1, sege);
+
+        /* Pick the smaller one */
+        val = a[val1] > a[val2] ? val2 : val1;
+    }
+
+    /* Allow the smaller value to rise to the top */
+    return val;
+}
+
+/***********************************************************************/
+/* sg_tree_search: Search for max rectangle via segment tree           */
+/*                                                                     */
+/***********************************************************************/
+int seg_tree(int *a, int *arr, int s, int e, int len)
+{
+    int min, lmax, rmax, mmax;
+
+    /* Recursion termination */
+    if (s > e)
+        return 0;
+
+    /* Get the minimum value offset */
+    min = search_sg_tree(arr, a, 0, s, e, 0, len - 1);
+
+    /* Calculate the area with the minimum value within this offset */
+    mmax = a[min] * (e - s + 1);
+
+    /* Go to the left subtree */
+    lmax = seg_tree(a, arr, s, min - 1, len);
+
+    /* Go to the right subtree */
+    rmax = seg_tree(a, arr, min + 1, e, len);
+
+    /* Return the max */
+    return (((mmax > lmax) ? mmax : lmax) > rmax) ?
+            ((mmax > lmax) ? mmax : lmax) : rmax;
+}
+
+/***********************************************************************/
+/* create_sg_tree: Create a segment tree from an array                 */
+/*                                                                     */
+/***********************************************************************/
+int create_sg_tree(int *arr, int soff, int s, int e, int *a, int len)
+{
+    int mid;
+
+    /* We are at the leaf node */
+    if (s == e)
+        return s;
+
+    /* Calculate the middle of the array */
+    mid = s + ((e - s + 1) / 2) - 1;
+
+    /* Set the left subtree root node */
+    arr[(soff * 2) + 1] = create_sg_tree(arr, (soff * 2) + 1, s,
+                                         mid, a, len);
+
+    /* Set the right subtree root node */
+    arr[(soff * 2) + 2] = create_sg_tree(arr, (soff * 2) + 2,
+                                         mid + 1, e, a, len);
+
+    /* Allow the smaller value to rise to the top */
+    return a[arr[(soff * 2) + 1]] > a[arr[(soff * 2) + 2]] ?
+           arr[(soff * 2) + 2] : arr[(soff * 2) + 1];
+}
+
+/***********************************************************************/
+/* Given n non-negative integers representing the histogram's bar      */
+/* height where the width of each bar is 1, find the area of largest   */
+/* rectangle in the histogram.                                         */
+/*                                                                     */
+/* URL : https://leetcode.com/problems/largest-rectangle-in-histogram/ */
+/***********************************************************************/
+int largestRectangleArea(int* heights, int heightsSize)
+{
+    int *a = heights;
+    unsigned int n = heightsSize, n2;
+    int *arr;
+
+    /* Maintain sanity */
+    if (!a || !n)
+        return 0;
+
+    /* Best case */
+    if (a && (n == 1))
+        return a[0];
+
+    /* Another O(1) case */
+    if (n == 2)
+    {
+        int min = a[0] > a[1] ? a[1] : a[0];
+
+        /* If they are equal, then multiply by two */
+        if (a[0] == a[1])
+            return a[0] * 2;
+        /* Else if the minimum is not zero */
+        else if (min)
+            return min * 2;
+        /* Else return the non-zero value */
+        else
+            return (a[0] == 0) ? a[1] : a[0];
+    }
+
+    /* Calculate the height of segment tree */
+    n2 = ceil(log2(n));
+
+    /* Calculate the number of elements */
+    n2 = 2 * pow(2, n2) - 1;
+
+    /* Allocate !! */
+    arr = malloc(sizeof(int) * n2);
+    if (!arr)
+        return 0;
+
+    /* Create the segment tree, root would be the smallest element */
+    arr[0] = create_sg_tree(arr, 0, 0, n - 1, a, n2);
+
+    /* Seek and return */
+    return seg_tree(a, arr, 0, n - 1, n);
+}
+
+#elif ENABLE_O_N
 /********************************/
 /* Stack                        */
 /********************************/
