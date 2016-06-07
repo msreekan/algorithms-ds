@@ -15,6 +15,7 @@ Puzzles:
 3. Trapping Rain Water
 4. Jump Game
 5. House Robber III
+6. Generate Parentheses
 
 Dynamic Programming:
 1. Climbing Stairs
