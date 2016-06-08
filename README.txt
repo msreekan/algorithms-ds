@@ -6,7 +6,7 @@ All the solutions were submitted & tested at LeetCode:
 https://leetcode.com/problemset/algorithms/
 
 ****************************************************************
-Problem Count : 38
+Solutions Count : 40
 ****************************************************************
 
 Puzzles:
@@ -48,6 +48,7 @@ Linked Lists
 7. Remove Duplicates from Sorted List II
 8. Partition List
 9. Reverse List II
+10.Reverse Nodes in k-Group
 
 Strings:
 1. Longest Substring Without Repeating Characters
