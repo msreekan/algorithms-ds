@@ -11,22 +11,22 @@ Count : 40
 ###[*Puzzles*](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Puzzles/?at=master)
 
 
-..* [Container with most water](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Puzzles/11.ContainerWithMostWater/?at=master)
++ [Container with most water](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Puzzles/11.ContainerWithMostWater/?at=master)
 
 
-..* [Letter Combinations of a PhoneNumber](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Puzzles/17.LetterCombinationsofaPhoneNumber/?at=master)
++ [Letter Combinations of a PhoneNumber](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Puzzles/17.LetterCombinationsofaPhoneNumber/?at=master)
 
 
-..* [Trapping Rain Water](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Puzzles/42.TrappingRainWater/?at=master)
++ [Trapping Rain Water](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Puzzles/42.TrappingRainWater/?at=master)
 
 
-..* [Jump Game](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Puzzles/45.JumpGameII/?at=master)
++ [Jump Game](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Puzzles/45.JumpGameII/?at=master)
 
 
-..* [House Robber III](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Puzzles/337.HouseRobberIII/?at=master)
++ [House Robber III](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Puzzles/337.HouseRobberIII/?at=master)
 
 
-..* [Generate Parentheses](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Puzzles/22.GenerateParentheses/?at=master)
++ [Generate Parentheses](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Puzzles/22.GenerateParentheses/?at=master)
 ****************************************************************
 
 ****************************************************************
