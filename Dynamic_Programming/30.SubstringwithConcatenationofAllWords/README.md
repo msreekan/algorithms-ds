@@ -19,8 +19,8 @@ You should return the indices: [0,9].
 (order does not matter).
 
 ******************************************************************************
-Notes: 
-******************************************************************************
+Notes:
+
 Time Complexity : O(nmLog(k))
 
 Space Complexity : O(n + m)
