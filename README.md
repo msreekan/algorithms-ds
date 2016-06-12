@@ -4,7 +4,7 @@
 Solutions were submitted & tested at [LeetCode](https://leetcode.com/problemset/algorithms/).
 
 ****************************************************************
-Count : 42
+Count : 43
 ****************************************************************
 
 ****************************************************************
@@ -64,6 +64,9 @@ Count : 42
 + [Search a 2D Matrix](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Arrays/74.Searcha2DMatrix/?at=master)
 
 + [Remove Duplicates from Sorted Array II](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Arrays/80.RemoveDuplicatesfromSortedArrayII/?at=master)
+
++ [Next Permutation](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/0bcfca54c3790551d5c5b257939d710d5bbe41fd/Arrays/31.NextPermutation/?at=master)
+
 ****************************************************************
 
 ****************************************************************
