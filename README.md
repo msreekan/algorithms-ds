@@ -4,7 +4,7 @@
 Solutions were submitted & tested at [LeetCode](https://leetcode.com/problemset/algorithms/).
 
 ****************************************************************
-Count : 43
+Count : 44
 ****************************************************************
 
 ****************************************************************
@@ -22,6 +22,9 @@ Count : 43
 + [House Robber III](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Puzzles/337.HouseRobberIII/?at=master)
 
 + [Generate Parentheses](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Puzzles/22.GenerateParentheses/?at=master)
+
++ [Valid Sudoku](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/dadab6b5a5319aa9ce7acde7b7192edba1428056/Puzzles/36.ValidSudoku/?at=master)
+
 ****************************************************************
 
 ****************************************************************
