@@ -25,6 +25,8 @@ Count : 44
 
 + [Valid Sudoku](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/dadab6b5a5319aa9ce7acde7b7192edba1428056/Puzzles/36.ValidSudoku/?at=master)
 
++ [Sudoku Solver](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/d49de742e987695305b30e3ce2613b972e0746eb/Puzzles/37.SudokuSolver/?at=master)
+
 ****************************************************************
 
 ****************************************************************
