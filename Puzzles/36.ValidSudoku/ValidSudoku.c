@@ -8,6 +8,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define CTONUM(x) ((x) - 49)
+
 /***********************************************************************/
 /* Determine if a Sudoku is valid.                                     */
 /*                                                                     */
@@ -21,7 +23,7 @@ int isValidSudoku(char** board, int boardRowSize, int boardColSize)
     /* Allocate three maps, corresponding to the three factors affecting
        the validity of a Sudoku matrix : One for the row,
        other for column and then for 9 (3 x 3) matrices. */
-    int rmap[9][9] = {{0}}, cmap[9][9] = {{0}}, map[9][9] = {{0}};
+    int rmap[9] = {0}, cmap[9] = {0}, map[9]= {0};
 
     /* Parameter sanity */
     if (!board || !r || !c)
@@ -30,10 +32,10 @@ int isValidSudoku(char** board, int boardRowSize, int boardColSize)
     /* Slick O(n) method, check each element once, identify the corresponding
     row, column, (3 x 3) block index and check the map values.
     Here is the outer loop for rows */
-    for (row = 0; row < r; ++row)
+    for (row = r - 1; row >= 0; --row)
     {
         /* Outer loop for columns */
-        for (col = 0; col < c; ++col)
+        for (col = c - 1; col >= 0; --col)
         {
             /* Calculate the (3 x 3) block index */
             int index = ((row / 3) * 3) + col / 3;
@@ -45,26 +47,28 @@ int isValidSudoku(char** board, int boardRowSize, int boardColSize)
             the maps */
             if (str[col] != '.')
             {
+                int mask = 1 << CTONUM(str[col]);
+
                 /* If this value already exists in the (3 x 3) block
                 then return error */
-                if (map[index][str[col] - 49])
+                if (map[index] & mask)
                     return 0;
                 else
-                    map[index][str[col] - 49] = 1;
+                    map[index] |= mask;
 
                 /* If this value already exist in the column, then return
                 error */
-                if (cmap[col][str[col] - 49])
-                return 0;
+                if (cmap[col] & mask)
+                    return 0;
                 else
-                cmap[col][str[col] - 49] = 1;
+                    cmap[col] |= mask;
 
                 /* If this value already exist in the row, then
                 return error */
-                if (rmap[row][str[col] - 49])
+                if (rmap[row] & mask)
                     return 0;
                 else
-                    rmap[row][str[col] - 49] = 1;
+                    rmap[row] |= mask;
             }
         }
     }
