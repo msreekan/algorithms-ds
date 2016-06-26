@@ -21,10 +21,10 @@ You should return the indices: [0,9].
 ******************************************************************************
 Notes:
 
-Time Complexity : O(nmLog(k))
+Time Complexity : O(nm)
 
-Space Complexity : O(n + m)
+Space Complexity : O(ml)
 
-The solution used memoization, quick sort and binary search.
+The solution using trie and memoization.
 
 ******************************************************************************
