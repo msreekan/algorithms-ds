@@ -31,8 +31,8 @@ struct mstack
 struct tnode
 {
     struct tnode *tc[TRIE_SZ];  // child nodes
-    int tcount;                 // total number of instances of this word
-    int count;                  // used for searching
+    int tcount;                 // total number of instances of a word
+    int count;                  // decremented during searching
     struct tnode *next;         // linked list node
 };
 
@@ -169,7 +169,7 @@ struct tnode *create_trie(char **ch, int wlen, struct mstack *m)
     struct tnode *r = NULL;
     int i;
 
-    /* Allocate the Trie */
+    /* Allocate the trie */
     for (i = 0; i < wlen; ++i)
     {
         /* If the root is not set, then initialize the same */
