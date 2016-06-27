@@ -31,9 +31,9 @@ struct mstack
 struct tnode
 {
     struct tnode *tc[TRIE_SZ];  // child nodes
-    int count;                  // string count
-    int tcount;                 // count used for seeking
-    struct tnode *next;         // linked list node */
+    int tcount;                 // total number of instances of this word
+    int count;                  // used for searching
+    struct tnode *next;         // linked list node
 };
 
 /***********************************************************************/
@@ -191,16 +191,19 @@ struct tnode *create_trie(char **ch, int wlen, struct mstack *m)
 /***********************************************************************/
 void reset_list(struct tnode *n)
 {
-    /* End of the list */
-    if (!n)
-        return;
+    struct tnode *nt;
 
-    /* Reset the count */
-    n->count = n->tcount;
+    /* Loop through all the nodes */
+    while (n)
+    {
+        /* Save the pointer */
+        nt = n->next;
 
-    /* Proceed to the next element */
-    reset_list(n->next);
-    n->next = NULL;
+        /* Reset counter */
+        n->count = n->tcount;
+        n->next = NULL;
+        n = nt;
+    }
 }
 
 /***********************************************************************/
