@@ -1,5 +1,5 @@
 ****************************************************************
-**Illustrating Algorithms & Data structures using C.**
+**Algorithms & Data structures using C.**
 ****************************************************************
 Solutions were submitted & tested at [LeetCode](https://leetcode.com/problemset/algorithms/).
 
