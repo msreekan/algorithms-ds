@@ -134,14 +134,19 @@ void sift_down(struct ListNode **lists, int s, int listsSize)
 /* heapify: Heapify!                                                   */
 /*                                                                     */
 /***********************************************************************/
-void heapify(struct ListNode **lists, int listsSize)
+void heapify(struct ListNode **lists, int listsSize,
+             struct ListNode *maxn)
 {
     int len = listsSize, i;
     struct ListNode **l = lists;
 
     /* Maintain sanity */
     if (len < 2)
+    {
+        l[len - 1] = (l[len - 1] == NULL) ? maxn : l[len - 1];
         return;
+    }
+
 
     /* Select the index of the last non-leaf node */
     i = (len - 2) / 2;
@@ -150,12 +155,20 @@ void heapify(struct ListNode **lists, int listsSize)
     while (i >= 0)
     {
         int c2 = (i * 2) + 2;
-        int c1 = (i * 2) + 1;
-        int c = c1;
+        int c = (i * 2) + 1;
+
+        /* Ensure the NULL entries are set to dummy */
+        l[c] = (l[c] == NULL) ? maxn : l[c];
+        l[i] = (l[i] == NULL) ? maxn : l[i];
 
         /* Select the smallest child */
-        if ((c2 < len) && ((l[c2]->val) < l[c1]->val))
-            c = c2;
+        if (c2 < len)
+        {
+            /* Ensure the child is valid */
+            l[c2] = (l[c2] == NULL) ? maxn : l[c2];
+            if (l[c2]->val < l[c]->val)
+                c = c2;
+        }
 
         /* If needed, sift down the values down the heap */
         if (l[i]->val > l[c]->val)
@@ -173,7 +186,7 @@ void heapify(struct ListNode **lists, int listsSize)
 /***********************************************************************/
 struct ListNode* mergeKLists(struct ListNode** lists, int listsSize)
 {
-    int len = listsSize, i;
+    int len = listsSize;
     struct ListNode *sml = NULL, *ml = NULL;
     struct ListNode max = { 0x7FFFFFFF, NULL};
 
@@ -181,16 +194,8 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize)
     if (!listsSize)
         return NULL;
 
-    /* Any NULL pointers should be ignored by initializing it with
-    the end marker */
-    for (i = 0; i < len; ++i)
-    {
-        if (!lists[i])
-            lists[i] = &max;
-    }
-
     /* First heapify the list */
-    heapify(lists, len);
+    heapify(lists, len, &max);
 
     /* Allow the smallest value to rise up through the heap */
     while(lists[0] != &max)
@@ -256,4 +261,3 @@ int main()
     free_list(ml);
     return 0;
 }
-
