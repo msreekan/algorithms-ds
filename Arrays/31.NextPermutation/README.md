@@ -1,5 +1,5 @@
 ******************************************************************************
-Problem Statement: [3 Sum](https://leetcode.com/problems/next-permutation/)
+Problem Statement: [Next Permutation](https://leetcode.com/problems/next-permutation/)
 ******************************************************************************
 Implement next permutation, which rearranges numbers into the 
 lexicographically next greater permutation of numbers. 
