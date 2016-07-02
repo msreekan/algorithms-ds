@@ -4,7 +4,7 @@
 Solutions were submitted & tested at [LeetCode](https://leetcode.com/problemset/algorithms/).
 
 ****************************************************************
-Count : 46
+Count : 48
 ****************************************************************
 
 ****************************************************************
@@ -71,6 +71,10 @@ Count : 46
 + [Remove Duplicates from Sorted Array II](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Arrays/80.RemoveDuplicatesfromSortedArrayII/?at=master)
 
 + [Next Permutation](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/0bcfca54c3790551d5c5b257939d710d5bbe41fd/Arrays/31.NextPermutation/?at=master)
+
++ [Combination Sum](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/279bb180f3e0866f11eb9cad642ff180d160ae1d/Arrays/39.CombinationSum/?at=master)
+
++ [Combination Sum II](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/279bb180f3e0866f11eb9cad642ff180d160ae1d/Arrays/40.CombinationSumII/?at=master)
 
 ****************************************************************
 
