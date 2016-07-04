@@ -4,7 +4,7 @@
 Solutions were submitted & tested at [LeetCode](https://leetcode.com/problemset/algorithms/).
 
 ****************************************************************
-Count : 49
+Count : 50
 ****************************************************************
 
 ****************************************************************
@@ -26,6 +26,8 @@ Count : 49
 + [Valid Sudoku](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/dadab6b5a5319aa9ce7acde7b7192edba1428056/Puzzles/36.ValidSudoku/?at=master)
 
 + [Sudoku Solver](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/d49de742e987695305b30e3ce2613b972e0746eb/Puzzles/37.SudokuSolver/?at=master)
+
++ [ZigZag Conversion](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/4836d621572bde813c96f2cbf43f3352e43dc4d5/Puzzles/6.ZigZagConversion/?at=master)
 
 ****************************************************************
 
