@@ -4,7 +4,7 @@
 Solutions were submitted & tested at [LeetCode](https://leetcode.com/problemset/algorithms/).
 
 ****************************************************************
-Count : 50
+Count : 51
 ****************************************************************
 
 ****************************************************************
@@ -42,6 +42,8 @@ Count : 50
 + [Substring with Concatenation of All Words](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/1aae5af96409f4f9267f21d2aa462d6f8db86d8f/Dynamic_Programming/30.SubstringwithConcatenationofAllWords/?at=master)
 
 + [Longest Valid Parentheses](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/e68cdd5d47d850e065d9ffacd1f34691f44963e3/Dynamic_Programming/32.LongestValidParentheses/?at=master)
+
++ [Regular Expression Matching](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/789a1282f1b09de5b81d2ed10bc1d6fbdf5c4787/Dynamic_Programming/10.RegularExpressionMatching/?at=master)
 ****************************************************************
 
 ****************************************************************
