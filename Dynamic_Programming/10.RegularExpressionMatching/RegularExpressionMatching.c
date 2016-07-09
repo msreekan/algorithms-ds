@@ -1,3 +1,9 @@
+/***********************************************************************/
+/* Anyone is free to copy, modify, publish, use, compile, sell,        */
+/* dismantle, dismember or distribute this software, either in source  */
+/* code form or as object code or assembly code, for any purpose,      */
+/* commercial or non-commercial, and by any means.                     */
+/***********************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
