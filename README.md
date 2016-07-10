@@ -121,9 +121,9 @@ Count : 54
 
 + [48. Wildcard Matching](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/0b2797c6e9d4b90c9ffb3b0642729e4437fd57ea/Strings/44.WildcardMatching/?at=master)
 
-+ [49. Inplement strStr() )(https://bitbucket.org/msreekan/algorithms-and-data-structures/src/0b2797c6e9d4b90c9ffb3b0642729e4437fd57ea/Strings/28.ImplementstrStr()/?at=master)
++ [49. Implement strStr()](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/0b2797c6e9d4b90c9ffb3b0642729e4437fd57ea/Strings/28.ImplementstrStr()/?at=master)
 
-+ [50. String to Integer - atoi())(https://bitbucket.org/msreekan/algorithms-and-data-structures/src/0b2797c6e9d4b90c9ffb3b0642729e4437fd57ea/Strings/8.StringtoInteger(atoi)/?at=master)
++ [50. String to Integer - atoi()](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/0b2797c6e9d4b90c9ffb3b0642729e4437fd57ea/Strings/8.StringtoInteger(atoi)/?at=master)
 ****************************************************************
 
 ****************************************************************
