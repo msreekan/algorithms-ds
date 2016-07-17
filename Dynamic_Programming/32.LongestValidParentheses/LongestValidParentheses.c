@@ -54,7 +54,7 @@ void spush(struct stack *s, int val)
 /***********************************************************************/
 int longestValidParentheses(char* s)
 {
-    int i, longest = 0, len = strlen(s);
+    int i, longest = 0, len = strlen(s), offset;
     struct stack estack = {NULL, 0, len};
     int *dp;
 
@@ -79,79 +79,28 @@ int longestValidParentheses(char* s)
 
         /* Else if (s[i] == ')'), then it's closing parentheses,
         evaluate the expression */
-        else
+        else if ((offset = spop(&estack)) != -1)
         {
-            /* Figure out the offset of the corresponding
-            open parentheses */
-            int offset = spop(&estack);
+            /* If the valid open parentheses for this expression was
+              preceded by another valid set, then pick the open parentheses
+              offset of that set.
 
-            /* If there is a valid open parentheses, the evaluate */
-            if (offset != -1)
-            {
-                /* Update the open parentheses offset with the
-                closing parentheses location */
-                dp[offset] = i;
+              Basically, now the dp array for the cases like
+              "(  ) (  )  ( )  ( )  (  (  (  )  )  )" would look like below:
+              |-1|0|-1|0|-1|0|-1|0|-1|-1|-1|10| 9| 0  <-- dp array
+              | 0|1| 2|3| 4|5| 6|7| 8| 9|10|11|12|13
 
-                /* If the valid open parentheses for this expression was
-                preceded by another valid expression, then update the open
-                parentheses offset of that expression with the location of the
-                present closing parentheses.
+              This way in a single pass we can figure out the longest
+              valid sequence.
+               ".
+            */
+            dp[i] = ((offset - 1 >= 0) && (dp[offset - 1] != -1)) ?
+                     dp[offset - 1] : offset;
 
-                Basically, now the memoization array for the cases like
-                "()()()()((()))" would look like this:
-                |13|0|3|0|5|0|7|0|13|12|11|10|9|0
-
-                Merely tracking the open offset within the stack only takes care of
-                cases like "((())), so the memoization array would be less efficient,
-                like this:
-                |1|0|3|2|5|4|7|6|13|12|11|10|9|8|
-
-                Even though O(n), the above array results in more comparisons.
-                ".
-                */
-                if ((offset - 1 >= 0) && (dp[offset - 1] != -1))
-                {
-                    dp[dp[offset - 1]] = i;
-                    dp[i] = dp[offset - 1];
-                }
-                else
-                    dp[i] = offset;
-            }
+            /* Update the length */
+            longest = (longest < i - dp[i] + 1) ? i - dp[i] + 1 : longest;
         }
         ++i;
-    }
-
-    /* Now run through the memoization array seeking the longest
-    valid expression*/
-    i = 0;
-    while (i < len)
-    {
-        /* If there is a valid expression starting at this offset,
-        then calculate the length */
-        if (dp[i] != -1)
-        {
-            /* Update the length */
-            if (longest < dp[i] - i + 1)
-                longest = dp[i] - i + 1;
-
-            /* Update the offset */
-            i = dp[i] + 1;
-        }
-
-        /* Seek to the start of the next valid expression
-        */
-        while ((i < len) && (dp[i] == -1) && (dp[i] < i))
-        {
-            /* If there is no possibility of finding a longer
-             expression, then return */
-            if ((len - i) < longest)
-            {
-                /* Free the stack */
-                free(estack.array);
-                return longest;
-            }
-            ++i;
-        }
     }
 
     /* Free the stack */
