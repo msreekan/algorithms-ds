@@ -19,7 +19,7 @@ Notes:
 ******************************************************************************
 Time Complexity : O(nm)
 
-Space Complexity : O(nm)
+Space Complexity : O(n^m)
 
 Uses the trie data structure.
 ******************************************************************************
