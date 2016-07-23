@@ -31,7 +31,7 @@ Count : 64
 
 + [10. N-Queens](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/880f22ac7391561c44056954835c60c95b06f09a/Puzzles/51.N-Queens/?at=master)
 
-+ [11. N-QueensII](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/880f22ac7391561c44056954835c60c95b06f09a/Puzzles/52.%20N-QueensII/?at=master)
++ [11. N-QueensII](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/563bff04062df0baa8fc7b10ee3a5951912cfcf4/Puzzles/52.N-QueensII/?at=master)
 
 + [12. Jump Game](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/880f22ac7391561c44056954835c60c95b06f09a/Puzzles/55.JumpGame/?at=master)
 
