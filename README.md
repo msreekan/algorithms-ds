@@ -4,7 +4,7 @@
 Solutions were submitted & tested at [LeetCode](https://leetcode.com/problemset/algorithms/).
 
 ****************************************************************
-Count : 70
+Count : 71
 ****************************************************************
 
 ****************************************************************
@@ -169,5 +169,8 @@ Count : 70
 + [69. Multiply Strings](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/28b33ee09827cc388e45ec1978ff3c4b504381c3/Math/43.MultiplyStrings/?at=master)
 
 + [70. Pow(x, n)](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/880f22ac7391561c44056954835c60c95b06f09a/Math/50.Pow(x,%20n)/?at=master)
+
++ [71. Valid Number](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/dc38285a1e2a1bfa790badf9fb2a298f63ed1a3d/Strings/65.ValidNumber/?at=master)
+
 
 ***************************************************************
