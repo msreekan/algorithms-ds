@@ -4,7 +4,7 @@
 Solutions were submitted & tested at [LeetCode](https://leetcode.com/problemset/algorithms/).
 
 ****************************************************************
-Count : 74
+Count : 76
 ****************************************************************
 
 ****************************************************************
@@ -156,27 +156,31 @@ Count : 74
 
 + [65. Length of Last Word](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/218631067580bbe4aea89faf1e0f53cefc212fcc/Strings/58.LengthofLastWord/?at=master)
 
++ [66. Valid Number](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/dc38285a1e2a1bfa790badf9fb2a298f63ed1a3d/Strings/65.ValidNumber/?at=master)
+
++ [67. Plus One](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/18e115fffe8beeda4f90042df8d1f66745b7cf05/Strings/66.PlusOne/?at=master)
+
++ [68. Add Binary](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/18e115fffe8beeda4f90042df8d1f66745b7cf05/Strings/67.AddBinary/?at=master)
+
++ [69. Text Justification](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/18e115fffe8beeda4f90042df8d1f66745b7cf05/Strings/68.TextJustification/?at=master)
+
++ [70.Simplify Path](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/a087a471fabd5ae98ca32a03d876f89cb00523e1/Strings/71.SimplifyPath/?at=master)
+
 ****************************************************************
 
 ****************************************************************
 ###[Math](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Math/?at=master)
-+ [66. Reverse integer (Handles overflow)](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Math/7.ReverseInteger/?at=master)
++ [71. Reverse integer (Handles overflow)](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Math/7.ReverseInteger/?at=master)
 
-+ [67. Palindrome Number (In place and recursive)](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Math/9.PalindromeNumber/?at=master)
++ [72. Palindrome Number (In place and recursive)](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Math/9.PalindromeNumber/?at=master)
 
-+ [68. Divide Integers without divsion, mode or multiplication operators](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Math/29.DivideTwoIntegers/?at=master)
++ [73. Divide Integers without divsion, mode or multiplication operators](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Math/29.DivideTwoIntegers/?at=master)
 
-+ [69. Multiply Strings](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/28b33ee09827cc388e45ec1978ff3c4b504381c3/Math/43.MultiplyStrings/?at=master)
++ [74. Multiply Strings](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/28b33ee09827cc388e45ec1978ff3c4b504381c3/Math/43.MultiplyStrings/?at=master)
 
-+ [70. Pow(x, n)](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/880f22ac7391561c44056954835c60c95b06f09a/Math/50.Pow(x,%20n)/?at=master)
++ [75. Pow(x, n)](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/880f22ac7391561c44056954835c60c95b06f09a/Math/50.Pow(x,%20n)/?at=master)
 
-+ [71. Valid Number](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/dc38285a1e2a1bfa790badf9fb2a298f63ed1a3d/Strings/65.ValidNumber/?at=master)
-
-+ [72. Plus One](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/18e115fffe8beeda4f90042df8d1f66745b7cf05/Strings/66.PlusOne/?at=master)
-
-+ [73. Add Binary](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/18e115fffe8beeda4f90042df8d1f66745b7cf05/Strings/67.AddBinary/?at=master)
-
-+ [74. Text Justification](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/18e115fffe8beeda4f90042df8d1f66745b7cf05/Strings/68.TextJustification/?at=master)
++ [76.Sqrt(x)](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/a087a471fabd5ae98ca32a03d876f89cb00523e1/Math/69.Sqrt(x)/?at=master)
 
 
 
