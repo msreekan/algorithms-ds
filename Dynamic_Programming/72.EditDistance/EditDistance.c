@@ -14,7 +14,9 @@
 #define MIN_INT(a, b, c) ((a) > ((b) > (c) ? (c) : (b))\
                          ? ((b) > (c) ? (c) : (b)) : (a))
 #define MAX_CHAR 0xFF
+#define MEMOIZATION 1
 
+#if MEMOIZATION
 /***********************************************************************/
 /* ml: Recursively seek the minimum distance!                          */
 /*                                                                     */
@@ -22,8 +24,8 @@
 void ml(char* w1, int o1, int l1, char* w2, int o2, int l2,
         unsigned char *dp)
 {
-    int offst = (o1 * (l2 + 1)) + o2, od = ((o1 + 1) * (l2 + 1)) + o2;
-    int oi = (o1 * (l2 + 1)) + o2 + 1, r = 0;
+    int offst = o1 * (l2 + 1) + o2, od = (o1 + 1) * (l2 + 1) + o2;
+    int oi = o1 * (l2 + 1) + o2 + 1, r = 0;
 
     /* End of the string, return the number of remaining characters
     in the other string */
@@ -42,14 +44,44 @@ void ml(char* w1, int o1, int l1, char* w2, int o2, int l2,
             r++;
         }
 
-        /* Replace and the case where characters are equal */
+        /* Explore the case where character is replaced or
+           where they are equal. Finally, pick the minimum. */
         ml(w1, o1 + 1, l1, w2, o2 + 1, l2, dp);
-
-        /* Set the minimum */
         dp[offst] = (r > 0) ? (MIN_INT(dp[od + 1] + r, dp[od] + r,
                     dp[oi] + r)) : dp[od + 1];
     }
 }
+
+#else
+
+/***********************************************************************/
+/* ml: Recursively seek the minimum distance!                          */
+/*                                                                     */
+/***********************************************************************/
+int ml(char* w1, int o1, int l1, char* w2, int o2, int l2)
+{
+    int od, oi, os, r = 0;
+
+    /* End of the string, return the number of remaining characters
+    in the other string */
+    if (o1 == l1 || o2 == l2)
+        return (o1 == l1) ? l2 - o2 : l1 - o1;
+
+    /* Find minimum distance for strings at [o1..l1] & [o2..l2].
+       If characters are unequal, try insert and delete */
+    if (w1[o1] != w2[o2])
+    {
+       od = ml(w1, o1 + 1, l1, w2, o2, l2) + 1;
+       oi = ml(w1, o1, l1, w2, o2 + 1, l2) + 1;
+       r++;
+    }
+
+    /* Explore the case where character is replaced or
+       where they are equal. Finally, pick the minimum. */
+    os = ml(w1, o1 + 1, l1, w2, o2 + 1, l2) + r;
+    return MIN_INT(os, od, oi);
+}
+#endif // MEMOIZATION
 
 /***********************************************************************/
 /* Given two words word1 and word2, find the minimum number of steps   */
@@ -65,8 +97,9 @@ void ml(char* w1, int o1, int l1, char* w2, int o2, int l2,
 int minDistance(char *word1, char * word2)
 {
     int l1 = strlen(word1), l2 = strlen(word2), md = 0;
-    unsigned char *dp = malloc((l1 + 1) * (l2 + 1) * sizeof(unsigned char));
 
+#if MEMOIZATION
+    unsigned char *dp = malloc((l1 + 1) * (l2 + 1) * sizeof(unsigned char));
     /* Validate */
     if (!dp) return 0;
 
@@ -77,6 +110,9 @@ int minDistance(char *word1, char * word2)
     ml(word1, 0, l1, word2, 0, l2, dp);
     md = dp[0];
     free(dp);
+#else
+    md = ml(word1, 0, l1, word2, 0, l2);
+#endif
     return md;
 }
 
@@ -86,8 +122,8 @@ int minDistance(char *word1, char * word2)
 /***********************************************************************/
 int main()
 {
-    char ch1[] = "zoologicoarchaeologist";
-    char ch2[] = "zoopathologist";
+    char ch1[] = "tea";
+    char ch2[] = "set";
     printf("Min Distance = %d :\n", minDistance(ch1, ch2));
     return 0;
 }
