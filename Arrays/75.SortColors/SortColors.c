@@ -10,7 +10,7 @@
 /************************************/
 /* Local prototype                  */
 /************************************/
-void set_pivot(int* a, int len, int p);
+int set_pivot(int* a, int len, int p);
 
 /***********************************************************************/
 /* swap_int: Swap integers!                                            */
@@ -68,15 +68,14 @@ void sortColors(int* nums, int numsSize)
 #else
 void sortColors(int* nums, int numsSize)
 {
-    set_pivot(nums, numsSize, 2); // pivot as 2
-    set_pivot(nums, numsSize, 1); // pivot as 1
+    set_pivot(nums, set_pivot(nums, numsSize, 2), 1); // pivot as 1
 }
 
 /***********************************************************************/
 /* set_pivot: Set pivot!                                               */
 /*                                                                     */
 /***********************************************************************/
-void set_pivot(int* a, int len, int p)
+int set_pivot(int* a, int len, int p)
 {
     int i = 0, j = len - 1;
 
@@ -87,6 +86,9 @@ void set_pivot(int* a, int len, int p)
         while ((j > 0) && a[j] >= p) --j;
         if (i < j) swap_int(&a[i], &a[j]);
     }
+
+    /* Return the last location of swap */
+    return j + 1;
 }
 #endif // ONE_PASS
 
