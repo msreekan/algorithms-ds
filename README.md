@@ -4,7 +4,7 @@
 Solutions were submitted & tested at [LeetCode](https://leetcode.com/problemset/algorithms/).
 
 ****************************************************************
-Count : 87
+Count : 88
 ****************************************************************
 
 ****************************************************************
@@ -129,84 +129,86 @@ Count : 87
 
 + [54. Search in Rotated Sorted Array II](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/b5153d8276826b72ce7cbd9fe73c548f8dbd8dbe/Arrays/81.SearchinRotatedSortedArrayII/?at=master)
 
++ [55. Subsets II](https://leetcode.com/problems/subsets-ii/)
+
 ****************************************************************
 
 ****************************************************************
 ###[Linked Lists](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75e/Linked_List/?at=master)
 
-+ [55. Add Two Numbers](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/2.AddTwoNumbers/?at=master)
++ [56. Add Two Numbers](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/2.AddTwoNumbers/?at=master)
 
-+ [56. Merge Two Sorted Lists](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/21.MergeTwoSortedLists/?at=master)
++ [57. Merge Two Sorted Lists](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/21.MergeTwoSortedLists/?at=master)
 
-+ [57. Remove Nth Node From End of List](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/19.RemoveNthNodeFromEndofList/?at=master)
++ [58. Remove Nth Node From End of List](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/19.RemoveNthNodeFromEndofList/?at=master)
 
-+ [58. Merge k Sorted Lists](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/23.MergekSortedLists/?at=master)
++ [59. Merge k Sorted Lists](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/23.MergekSortedLists/?at=master)
 
-+ [59. Swap Nodes in Pairs](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/24.SwapNodesinPairs/?at=master)
++ [60. Swap Nodes in Pairs](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/24.SwapNodesinPairs/?at=master)
 
-+ [60. Rotate List](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/61.RotateList/?at=master)
++ [61. Rotate List](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/61.RotateList/?at=master)
 
-+ [61. Remove Duplicates from Sorted List II](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/82.RemoveDuplicatesfromSortedListII/?at=master)
++ [62. Remove Duplicates from Sorted List II](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/82.RemoveDuplicatesfromSortedListII/?at=master)
 
-+ [62. Partition List](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/86.PartitionList/?at=master)
++ [63. Partition List](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/86.PartitionList/?at=master)
 
-+ [63. Reverse List II](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/92.ReverseListII/?at=master)
++ [64. Reverse List II](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/92.ReverseListII/?at=master)
 
-+ [64. Reverse Nodes in k-Group](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/25.ReverseNodesink-Group/?at=master)
++ [65. Reverse Nodes in k-Group](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/25.ReverseNodesink-Group/?at=master)
 
-+ [65. Remove Duplicates from SortedList](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/83.RemoveDuplicatesfromSortedList/?at=master)
++ [66. Remove Duplicates from SortedList](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/83.RemoveDuplicatesfromSortedList/?at=master)
 ****************************************************************
 
 ****************************************************************
 ###[Strings](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Strings/?at=master)
 
-+ [66. Longest Substring Without Repeating Characters](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Strings/3.LongestSubstring/?at=master)
++ [67. Longest Substring Without Repeating Characters](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Strings/3.LongestSubstring/?at=master)
 
-+ [67. Longest Palindromic Substring](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Strings/5.LongestPalindromicSubstring/?at=master)
++ [68. Longest Palindromic Substring](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Strings/5.LongestPalindromicSubstring/?at=master)
 
-+ [68. Longest Common Prefix](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Strings/14.LongestCommonPrefix/?at=master)
++ [69. Longest Common Prefix](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Strings/14.LongestCommonPrefix/?at=master)
 
-+ [69. Valid Parentheses](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Strings/20.ValidParentheses/?at=master)
++ [70. Valid Parentheses](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Strings/20.ValidParentheses/?at=master)
 
-+ [70. Count and Say](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/c61aeae585e7f7390b878cece70b5fa1c3ee336f/Strings/38.CountandSay/?at=master)
++ [71. Count and Say](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/c61aeae585e7f7390b878cece70b5fa1c3ee336f/Strings/38.CountandSay/?at=master)
 
-+ [71. Wildcard Matching](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/0b2797c6e9d4b90c9ffb3b0642729e4437fd57ea/Strings/44.WildcardMatching/?at=master)
++ [72. Wildcard Matching](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/0b2797c6e9d4b90c9ffb3b0642729e4437fd57ea/Strings/44.WildcardMatching/?at=master)
 
-+ [72. Implement strStr()](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/0b2797c6e9d4b90c9ffb3b0642729e4437fd57ea/Strings/28.ImplementstrStr()/?at=master)
++ [73. Implement strStr()](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/0b2797c6e9d4b90c9ffb3b0642729e4437fd57ea/Strings/28.ImplementstrStr()/?at=master)
 
-+ [73. String to Integer - atoi()](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/0b2797c6e9d4b90c9ffb3b0642729e4437fd57ea/Strings/8.StringtoInteger(atoi)/?at=master)
++ [74. String to Integer - atoi()](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/0b2797c6e9d4b90c9ffb3b0642729e4437fd57ea/Strings/8.StringtoInteger(atoi)/?at=master)
 
-+ [74. Group Anagrams](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/cd3cac71173af3353f945e9ad5a3d1f887bfa402/Strings/49.GroupAnagrams/?at=master)
++ [75. Group Anagrams](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/cd3cac71173af3353f945e9ad5a3d1f887bfa402/Strings/49.GroupAnagrams/?at=master)
 
-+ [75. Length of Last Word](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/218631067580bbe4aea89faf1e0f53cefc212fcc/Strings/58.LengthofLastWord/?at=master)
++ [76. Length of Last Word](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/218631067580bbe4aea89faf1e0f53cefc212fcc/Strings/58.LengthofLastWord/?at=master)
 
-+ [76. Valid Number](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/dc38285a1e2a1bfa790badf9fb2a298f63ed1a3d/Strings/65.ValidNumber/?at=master)
++ [77. Valid Number](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/dc38285a1e2a1bfa790badf9fb2a298f63ed1a3d/Strings/65.ValidNumber/?at=master)
 
-+ [77. Plus One](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/18e115fffe8beeda4f90042df8d1f66745b7cf05/Strings/66.PlusOne/?at=master)
++ [78. Plus One](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/18e115fffe8beeda4f90042df8d1f66745b7cf05/Strings/66.PlusOne/?at=master)
 
-+ [78. Add Binary](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/18e115fffe8beeda4f90042df8d1f66745b7cf05/Strings/67.AddBinary/?at=master)
++ [79. Add Binary](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/18e115fffe8beeda4f90042df8d1f66745b7cf05/Strings/67.AddBinary/?at=master)
 
-+ [79. Text Justification](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/18e115fffe8beeda4f90042df8d1f66745b7cf05/Strings/68.TextJustification/?at=master)
++ [80. Text Justification](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/18e115fffe8beeda4f90042df8d1f66745b7cf05/Strings/68.TextJustification/?at=master)
 
-+ [80. Simplify Path](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/a087a471fabd5ae98ca32a03d876f89cb00523e1/Strings/71.SimplifyPath/?at=master)
++ [81. Simplify Path](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/a087a471fabd5ae98ca32a03d876f89cb00523e1/Strings/71.SimplifyPath/?at=master)
 
 ****************************************************************
 
 ****************************************************************
 ###[Math](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Math/?at=master)
 
-+ [81. Reverse integer (Handles overflow)](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Math/7.ReverseInteger/?at=master)
++ [82. Reverse integer (Handles overflow)](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Math/7.ReverseInteger/?at=master)
 
-+ [82. Palindrome Number (In place and recursive)](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Math/9.PalindromeNumber/?at=master)
++ [83. Palindrome Number (In place and recursive)](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Math/9.PalindromeNumber/?at=master)
 
-+ [83. Divide Integers without divsion, mode or multiplication operators](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Math/29.DivideTwoIntegers/?at=master)
++ [84. Divide Integers without divsion, mode or multiplication operators](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Math/29.DivideTwoIntegers/?at=master)
 
-+ [84. Multiply Strings](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/28b33ee09827cc388e45ec1978ff3c4b504381c3/Math/43.MultiplyStrings/?at=master)
++ [85. Multiply Strings](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/28b33ee09827cc388e45ec1978ff3c4b504381c3/Math/43.MultiplyStrings/?at=master)
 
-+ [85. Pow(x, n)](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/880f22ac7391561c44056954835c60c95b06f09a/Math/50.Pow(x,%20n)/?at=master)
++ [86. Pow(x, n)](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/880f22ac7391561c44056954835c60c95b06f09a/Math/50.Pow(x,%20n)/?at=master)
 
-+ [86. Sqrt(x)](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/a087a471fabd5ae98ca32a03d876f89cb00523e1/Math/69.Sqrt(x)/?at=master)
++ [87. Sqrt(x)](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/a087a471fabd5ae98ca32a03d876f89cb00523e1/Math/69.Sqrt(x)/?at=master)
 
-+ [87. Gray Code](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/51c41c677f356a3ce34a4a1e50eeff80aa59155c/Math/89.GrayCode/?at=master)
++ [88. Gray Code](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/51c41c677f356a3ce34a4a1e50eeff80aa59155c/Math/89.GrayCode/?at=master)
 
 ***************************************************************
