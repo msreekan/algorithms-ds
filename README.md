@@ -129,7 +129,7 @@ Count : 88
 
 + [54. Search in Rotated Sorted Array II](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/b5153d8276826b72ce7cbd9fe73c548f8dbd8dbe/Arrays/81.SearchinRotatedSortedArrayII/?at=master)
 
-+ [55. Subsets II](https://leetcode.com/problems/subsets-ii/)
++ [55. Subsets II](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/efe8a7cc2c93df560e20fb769b9b46bc60ce9971/Arrays/90.SubsetsII/?at=master)
 
 ****************************************************************
 
