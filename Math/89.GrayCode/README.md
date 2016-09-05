@@ -1,16 +1,14 @@
 ******************************************************************************
-Problem Statement: [Sqrt(x)](https://leetcode.com/problems/sqrtx/)
+Problem Statement: [Gray Code](https://leetcode.com/problems/gray-code/)
 ******************************************************************************
 
-Implement int sqrt(int x).
-
-Compute and return the square root of x.
+Check the above link for explanation
 
 ******************************************************************************
 Notes: 
 ******************************************************************************
 
-Time Complexity : O(Log(n))
+Time Complexity : O(n)
 
 Space Complexity : O(1)
 
