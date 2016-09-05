@@ -4,7 +4,7 @@
 Solutions were submitted & tested at [LeetCode](https://leetcode.com/problemset/algorithms/).
 
 ****************************************************************
-Count : 86
+Count : 87
 ****************************************************************
 
 ****************************************************************
@@ -207,6 +207,6 @@ Count : 86
 
 + [86. Sqrt(x)](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/a087a471fabd5ae98ca32a03d876f89cb00523e1/Math/69.Sqrt(x)/?at=master)
 
-
++ [87. Gray Code](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/51c41c677f356a3ce34a4a1e50eeff80aa59155c/Math/89.GrayCode/?at=master)
 
 ***************************************************************
