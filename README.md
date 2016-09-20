@@ -8,7 +8,7 @@ Count : 96
 ****************************************************************
 
 ****************************************************************
-###[*Puzzles*](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Puzzles/?at=master)
+###[*Puzzles*]
 
 
 + [1. Container with most water](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Puzzles/11.ContainerWithMostWater/?at=master)
@@ -38,7 +38,7 @@ Count : 96
 ****************************************************************
 
 ****************************************************************
-###[Dynamic Programming](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Dynamic_Programming/?at=master)
+###[Dynamic Programming]
 
 + [13. Climbing Stairs](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Dynamic_Programming/70.ClimbingStairs/?at=master)
 
@@ -71,7 +71,7 @@ Count : 96
 ****************************************************************
 
 ****************************************************************
-###[Arrays](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Arrays/?at=master)
+###[Arrays]
 
 + [27. Two Sum](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Arrays/1.TwoSum/?at=master)
 
@@ -134,7 +134,7 @@ Count : 96
 ****************************************************************
 
 ****************************************************************
-###[Linked Lists](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75e/Linked_List/?at=master)
+###[Linked Lists]
 
 + [56. Add Two Numbers](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Linked_List/2.AddTwoNumbers/?at=master)
 
@@ -160,7 +160,7 @@ Count : 96
 ****************************************************************
 
 ****************************************************************
-###[Strings](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Strings/?at=master)
+###[Strings]
 
 + [67. Longest Substring Without Repeating Characters](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Strings/3.LongestSubstring/?at=master)
 
@@ -199,7 +199,7 @@ Count : 96
 ****************************************************************
 
 ****************************************************************
-###[Math](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Math/?at=master)
+###[Math]
 
 + [84. Reverse integer (Handles overflow)](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/ac7c1955c75edb023d47a7307fbcbfe078c65199/Math/7.ReverseInteger/?at=master)
 
@@ -216,7 +216,7 @@ Count : 96
 + [90. Gray Code](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/51c41c677f356a3ce34a4a1e50eeff80aa59155c/Math/89.GrayCode/?at=master)
 
 ****************************************************************
-###[Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/9859bdf60e4b/Tree/?at=master)
+###[Tree]
 
 + [91. Binary Tree Inorder Traversal](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/9859bdf60e4b5248c84974d76eab42a5e862ac38/Tree/94.BinaryTreeInorderTraversal/?at=master)
 
@@ -231,7 +231,7 @@ Count : 96
 + [96. Same Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/3f2824811241cb70d3bf1f4a1783806394e49672/Tree/100.SameTree/?at=master)
 
 ****************************************************************
-###[*Utils*](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/9859bdf60e4b5248c84974d76eab42a5e862ac38/Utils/?at=master)
+###[*Utils*]
 
 Generic utility routines are invoked by some of the above solutions.
 
