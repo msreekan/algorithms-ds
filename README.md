@@ -4,7 +4,7 @@
 Solutions were submitted & tested at [LeetCode](https://leetcode.com/problemset/algorithms/).
 
 ****************************************************************
-Count : 96
+Count : 100
 ****************************************************************
 
 ****************************************************************
@@ -229,6 +229,14 @@ Count : 96
 + [95. Recover Binary Search Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/3f2824811241cb70d3bf1f4a1783806394e49672/Tree/99.RecoverBinarySearchTree/?at=master)
 
 + [96. Same Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/3f2824811241cb70d3bf1f4a1783806394e49672/Tree/100.SameTree/?at=master)
+
++ [97. Symmetric Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/6903404fb8db05f6b0c40bda5af12c7edb43381a/Tree/101.SymmetricTree/?at=master)
+
++ [98. Binary Tree Level Order Traversal](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/6903404fb8db05f6b0c40bda5af12c7edb43381a/Tree/102.BinaryTreeLevelOrderTraversal/?at=master)
+
++ [99. Binary Tree Zigzag Level Order Traversal](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/6903404fb8db05f6b0c40bda5af12c7edb43381a/Tree/103.BinaryTreeZigzagLevelOrderTraversal/?at=master)
+
++ [100. Maximum Depth of Binary Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/6903404fb8db05f6b0c40bda5af12c7edb43381a/Tree/104.MaximumDepthofBinaryTree/?at=master)
 
 ****************************************************************
 ###[*Utils*]
