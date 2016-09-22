@@ -1,10 +1,10 @@
 ****************************************************************
 **Algorithms & Data structures using C.**
 ****************************************************************
-Solutions were submitted & tested at [LeetCode](https://leetcode.com/problemset/algorithms/).
+Solutions were tested at [LeetCode](https://leetcode.com/problemset/algorithms/).
 
 ****************************************************************
-Count : 100
+Count : 102
 ****************************************************************
 
 ****************************************************************
@@ -237,6 +237,10 @@ Count : 100
 + [99. Binary Tree Zigzag Level Order Traversal](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/6903404fb8db05f6b0c40bda5af12c7edb43381a/Tree/103.BinaryTreeZigzagLevelOrderTraversal/?at=master)
 
 + [100. Maximum Depth of Binary Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/6903404fb8db05f6b0c40bda5af12c7edb43381a/Tree/104.MaximumDepthofBinaryTree/?at=master)
+
++ [101. Binary Tree Level Order Traversa lI](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/5586cc5a45a3a55f15be816c849b2ec55ea8b3a2/Tree/107.BinaryTreeLevelOrderTraversalII/?at=master)
+
++ [102. Convert Sorted Array to Binary Search Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/5586cc5a45a3a55f15be816c849b2ec55ea8b3a2/Tree/108.ConvertSortedArraytoBinarySearchTree/?at=master)
 
 ****************************************************************
 ###[*Utils*]
