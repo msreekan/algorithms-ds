@@ -1,7 +1,6 @@
 ****************************************************************
 **Algorithms & Data structures using C.**
 ****************************************************************
-Solutions were tested at [LeetCode](https://leetcode.com/problemset/algorithms/).
 
 ****************************************************************
 Count : 102
