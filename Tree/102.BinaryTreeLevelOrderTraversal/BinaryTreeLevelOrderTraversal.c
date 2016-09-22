@@ -56,7 +56,11 @@ int** levelOrder(struct TreeNode *root, int **columnSizes,
     if ((larr = malloc(MAX_LEVEL * sizeof(int *))) == NULL)
         return NULL;
     if ((*columnSizes = calloc(MAX_LEVEL, sizeof(int))) == NULL)
+    {
+        free(larr);
         return NULL;
+    }
+
     *returnSize = 0;
 
     /* Invoke the function, return the entries. */
