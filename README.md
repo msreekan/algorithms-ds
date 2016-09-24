@@ -3,7 +3,7 @@
 ****************************************************************
 
 ****************************************************************
-Count : 103
+Count : 107
 ****************************************************************
 
 ****************************************************************
@@ -242,6 +242,14 @@ Count : 103
 + [102. Convert Sorted Array to Binary Search Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/5586cc5a45a3a55f15be816c849b2ec55ea8b3a2/Tree/108.ConvertSortedArraytoBinarySearchTree/?at=master)
 
 + [103. Convert Sorted List to Binary Search Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/f5dcde740497b949a346050ea8ed556a923c90ee/Tree/109.ConvertSortedListtoBinarySearchTree/?at=master)
+
++ [104. Balanced Binary Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/f0c21a43521817da173136aa689b8e61a715e270/Tree/110.BalancedBinaryTree/?at=master)
+
++ [105. Minimum Depth of Binary Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/f0c21a43521817da173136aa689b8e61a715e270/Tree/111.MinimumDepthofBinaryTree/?at=master)
+
++ [106. Path Sum](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/f0c21a43521817da173136aa689b8e61a715e270/Tree/112.PathSum/?at=master)
+
++ [107. Path Sum II](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/f0c21a43521817da173136aa689b8e61a715e270/Tree/113.PathSumII/?at=master)
 
 ****************************************************************
 ###[*Utils*]
