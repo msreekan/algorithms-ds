@@ -113,3 +113,39 @@ int StackEmpty(void *handle)
     /* Return 1 if it's empty */
     return (p->top == p->ptr) ? 1 : 0;
 }
+
+
+/***********************************************************************/
+/* StackGet: Get used stack size in bytes                              */
+/*           handle = Stack handle                                     */
+/*                                                                     */
+/***********************************************************************/
+int StackGet(void *handle)
+{
+    struct ___stack *p = handle;
+
+    /* Validate inputs */
+    if (!handle)
+        return -1;
+
+    /* Return used stack size in bytes. */
+    return (p->top - p->ptr) / p->ent_sz;
+}
+
+/***********************************************************************/
+/* StackCopy: Copy stack contents                                      */
+/*           handle = Stack handle                                     */
+/*                                                                     */
+/***********************************************************************/
+int StackCopy(void *handle, unsigned char *buf)
+{
+    struct ___stack *p = handle;
+
+    /* Validate inputs */
+    if (!handle)
+        return -1;
+
+    /* Return used stack size in bytes. */
+    memcpy(buf, p->ptr, p->top - p->ptr);
+    return 0;
+}

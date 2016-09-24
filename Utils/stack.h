@@ -15,4 +15,6 @@ void StackFree(void *);
 int StackPush(void *, void *);
 int StackPop(void *, void *);
 int StackEmpty(void *handle);
+int StackGet(void *handle);
+int StackCopy(void *handle, unsigned char *buf);
 #endif // __STACK_H__

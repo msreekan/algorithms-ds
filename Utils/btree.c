@@ -60,3 +60,71 @@ void InorderBtree(struct TreeNode *root)
     printf("%d ", root->val);
     InorderBtree(root->right);
 }
+
+/***********************************************************************/
+/* PreorderBtree: Preorder print of Btree                              */
+/*                                                                     */
+/***********************************************************************/
+void PreorderBtree(struct TreeNode *root)
+{
+    if (!root)
+        return;
+    printf("%d ", root->val);
+    PreorderBtree(root->left);
+    PreorderBtree(root->right);
+}
+
+/***********************************************************************/
+/* PostorderBtree: Postorder print of Btree                            */
+/*                                                                     */
+/***********************************************************************/
+void PostorderBtree(struct TreeNode *root)
+{
+    if (!root)
+        return;
+    PreorderBtree(root->left);
+    PreorderBtree(root->right);
+    printf("%d ", root->val);
+}
+
+/***********************************************************************/
+/* InorderBtreeArr: Inorder storing of Btree into an array             */
+/*                                                                     */
+/***********************************************************************/
+void InorderBtreeArr(struct TreeNode *root, int **arr)
+{
+    if (!root)
+        return;
+    InorderBtreeArr(root->left, arr);
+    **arr = root->val;
+    (*arr) += 1;
+    InorderBtreeArr(root->right, arr);
+}
+
+/***********************************************************************/
+/* PreorderBtreeArr: Preorder storing of Btree into an array           */
+/*                                                                     */
+/***********************************************************************/
+void PreorderBtreeArr(struct TreeNode *root, int **arr)
+{
+    if (!root)
+        return;
+    **arr = root->val;
+    (*arr) += 1;
+    PreorderBtreeArr(root->left, arr);
+    PreorderBtreeArr(root->right, arr);
+}
+
+/***********************************************************************/
+/* PostorderBtreeArr: Postorder storing of Btree into an array         */
+/*                                                                     */
+/***********************************************************************/
+void PostorderBtreeArr(struct TreeNode *root, int **arr)
+{
+    if (!root)
+        return;
+    PreorderBtreeArr(root->left, arr);
+    PreorderBtreeArr(root->right, arr);
+    **arr = root->val;
+    (*arr) += 1;
+}

@@ -15,4 +15,9 @@
                         *(a) = *(b);\
                         *(b) = temp;\
                         }
-#endif // __STACK_H__
+
+/********************************************/
+/* Function Prototypes                      */
+/********************************************/
+void PrintArray(int *arr, int len);
+#endif // __GENERIC_H__

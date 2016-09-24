@@ -22,5 +22,10 @@ struct TreeNode
 /********************************************/
 struct TreeNode *CreateBtree(int *arr, int s, int e);
 void FreeBtree(struct TreeNode *root);
+void PreorderBtree(struct TreeNode *root);
+void PostorderBtree(struct TreeNode *root);
 void InorderBtree(struct TreeNode *root);
+void InorderBtreeArr(struct TreeNode *root, int **arr);
+void PreorderBtreeArr(struct TreeNode *root, int **arr);
+void PostorderBtreeArr(struct TreeNode *root, int **arr);
 #endif // __BTREE_H__
