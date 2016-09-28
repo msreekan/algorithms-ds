@@ -12,7 +12,7 @@
 /* Macros                               */
 /****************************************/
 #define DPOFF(x, y) ((x) * (tlen + 1) + (y))
-#define RECURSIVE_MODE 1
+#define RECURSIVE_MODE 0
 
 #if RECURSIVE_MODE
 /***********************************************************************/
@@ -90,6 +90,12 @@ void prn_matrix(int *dp, int row, int col)
     }
 }
 
+
+/****************************************/
+/* Macros                               */
+/****************************************/
+#define DPOFF(x, y) ((x) * (tlen + 1) + (y))
+
 /***********************************************************************/
 /* numDistinct: Number of distinct values!                             */
 /*                                                                     */
@@ -97,13 +103,14 @@ void prn_matrix(int *dp, int row, int col)
 int numseq(char* s, char* t, int slen, int tlen, int *dp)
 {
     int i, j;
-    for (i = slen; i >= 0; --i)
-        dp[DPOFF(i, tlen)] = 1;
-    for (j = tlen - 1; j >= 0; --j)
-        for (i = slen - (tlen - j); i >= 0 && dp[DPOFF(0, j + 1)]; --i)
-            dp[DPOFF(i, j)]  = (s[i] == t[j]) ? dp[DPOFF(i + 1, j + 1)] +
-                               dp[DPOFF(i + 1, j)] : dp[DPOFF(i + 1, j)];
-    return dp[DPOFF(0, 0)];
+    for (i = 1; i <= slen; ++i) {
+        dp[DPOFF(i - 1, 0)] = 1;
+        for (j = 1; j <= tlen; ++j)
+            dp[DPOFF(i, j)] = (s[i - 1] == t[j - 1]) ?
+            dp[DPOFF(i - 1, j - 1)] + dp[DPOFF(i - 1, j)] :
+            dp[DPOFF(i - 1, j)];
+    }
+    return dp[DPOFF(slen, tlen)];
 }
 
 /***********************************************************************/
@@ -137,7 +144,6 @@ int numDistinct(char* s, char* t)
     return num;
 }
 #endif
-
 
 /***********************************************************************/
 /* main: Entry point!                                                  */
