@@ -34,6 +34,29 @@ struct TreeNode *CreateBtree(int *arr, int s, int e)
 }
 
 /***********************************************************************/
+/* CreateBLtree: Create binary linked tree from an integer array       */
+/*                                                                     */
+/***********************************************************************/
+struct TreeLinkNode *CreateBLTree(int *arr, int s, int e)
+{
+    struct TreeLinkNode *root;
+    int mid = s + ((e - s + 1) / 2);
+
+    /* Array is empty */
+    if (s > e)
+        return NULL;
+    root = malloc(sizeof(struct TreeLinkNode));
+    if (!root)
+        return NULL;
+
+    root->val = arr[mid];
+    root->next = NULL;
+    root->left = CreateBLTree(arr, s, mid - 1);
+    root->right = CreateBLTree(arr, mid + 1, e);
+    return root;
+}
+
+/***********************************************************************/
 /* FreeBtree: Free binary tree                                         */
 /*                                                                     */
 /***********************************************************************/
@@ -59,6 +82,20 @@ void InorderBtree(struct TreeNode *root)
     InorderBtree(root->left);
     printf("%d ", root->val);
     InorderBtree(root->right);
+}
+
+/***********************************************************************/
+/* InorderBLtree: Inorder print of BLtree                              */
+/*                                                                     */
+/***********************************************************************/
+void InorderBLTree(struct TreeLinkNode *root)
+{
+    /* Validate the node */
+    if (!root)
+        return;
+    InorderBLTree(root->left);
+    printf("%d ", root->val);
+    InorderBLTree(root->right);
 }
 
 /***********************************************************************/
@@ -116,6 +153,20 @@ void PreorderBtreeArr(struct TreeNode *root, int **arr)
 }
 
 /***********************************************************************/
+/* PreorderBtreeBArr: Preorder storing of Btree nodes into an array    */
+/*                                                                     */
+/***********************************************************************/
+void PreorderBtreeBArr(struct TreeNode *root, struct TreeNode ***arr)
+{
+    if (!root)
+        return;
+    **arr = root;
+    (*arr) += 1;
+    PreorderBtreeBArr(root->left, arr);
+    PreorderBtreeBArr(root->right, arr);
+}
+
+/***********************************************************************/
 /* PostorderBtreeArr: Postorder storing of Btree into an array         */
 /*                                                                     */
 /***********************************************************************/
@@ -127,4 +178,43 @@ void PostorderBtreeArr(struct TreeNode *root, int **arr)
     PreorderBtreeArr(root->right, arr);
     **arr = root->val;
     (*arr) += 1;
+}
+
+/***********************************************************************/
+/* LevelTraversalBLtree: Level traversal of BLtree                     */
+/*                                                                     */
+/***********************************************************************/
+void LevelTraversalBLtree(struct TreeLinkNode *root)
+{
+    struct TreeLinkNode *tnode;
+
+    /* Validate the input */
+    if (!root)
+        return;
+
+    /* Save pointer to the next level, print the present level */
+    tnode = root->left ? root->left : root->right;
+    do
+        printf("%d ", root->val);
+    while ((root = root->next));
+    printf("\n");
+
+    /* Move to the next level */
+    LevelTraversalBLtree(tnode);
+}
+
+/***********************************************************************/
+/* FreeBLtree: Free binary linked tree                                 */
+/*                                                                     */
+/***********************************************************************/
+void FreeBLtree(struct TreeLinkNode *root)
+{
+    if (!root)
+        return;
+
+    FreeBLtree(root->left);
+    root->left = NULL;
+    FreeBLtree(root->right);
+    root->right = NULL;
+    free(root);
 }
