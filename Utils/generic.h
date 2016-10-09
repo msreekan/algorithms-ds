@@ -20,4 +20,6 @@
 /* Function Prototypes                      */
 /********************************************/
 void PrintArray(int *arr, int len);
+int isAlphaNum(char s);
+int toLower(char s);
 #endif // __GENERIC_H__
