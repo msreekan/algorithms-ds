@@ -3,7 +3,7 @@
 ****************************************************************
 
 ****************************************************************
-Count : 119
+Count : 120
 ****************************************************************
 
 ****************************************************************
@@ -280,6 +280,12 @@ Count : 119
 + [119. Binary Tree Maximum Path Sum](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/7c68fbba82118a23df33d1355b94c04f2c977a9d/Tree/124.BinaryTreeMaximumPathSum/?at=master)
 
 ****************************************************************
+
+###[Hash Table]
++ [120. Longest Consecutive Sequence](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/7d5b100d1ac9e59b37a63378a65c0ab3c7b24730/HashTable/128.LongestConsecutiveSequence/?at=master)
+
+****************************************************************
+
 ###[*Utils*]
 
 Generic utility routines are invoked by some of the above solutions.
