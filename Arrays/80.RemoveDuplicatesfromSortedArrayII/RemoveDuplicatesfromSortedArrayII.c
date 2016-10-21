@@ -7,6 +7,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/****************************************************/
+/* Macros                                           */
+/****************************************************/
+#define DUP_COUNT 3
+
 /***********************************************************************/
 /* What if duplicates are allowed at most twice?                       */
 /* For example,                                                        */
@@ -16,52 +21,27 @@
 /* of nums being 1, 1, 2, 2 and 3. It doesn't matter what you leave    */
 /* beyond the new length.                                              */
 /***********************************************************************/
-int removeDuplicates(int* nums, int numsSize)
+int removeDuplicates(int* a, int len)
 {
-    int len = numsSize;
-    int i = len - 1, j, l;
-    int *a = nums;
+    int roff, wroff = 0, cnt = 0;
 
-    /* We need to run only up to index 2. Also, scanning backwards from
-    the end of the array would ensure that the copies happen after the
-    redundant ( > 2 ) elements are removed. Still O(n), but reduces the
-    memcopy. */
-    while (i - 2 >= 0)
-    {
-        /* If there are more than 3 instances of a value then shift
-        the array to the left removing the redundant elements */
-        if ((nums[i] == nums[i - 1]) && (nums[i - 2] == nums[i - 1]))
-        {
-            /* Find the index with the first non-repeating element */
-            j = i - 1;
-            while ((j >= 0) && (a[j] == a[i]))
-                j--;
-
-            /* Elements from (i - 1) to len needs to be moved to j */
-            l = i - 1;
-            ++j;
-
-            /* First, update the outer loop scan offset */
-            i = j;
-
-            /* Copy */
-            while (l < len)
-            {
-                a[j] = a[l];
-                ++j;
-                ++l;
-            }
-
-            /* Update the length */
-            len = j;
+    /* Loop till the end of the array: Handle two states. */
+    for (roff = 0; roff < len; ++roff) {
+        /* 1. Duplicate count < DUP_COUNT -- Just Copy values and
+              identify duplicates. */
+        if (cnt < DUP_COUNT) {
+            a[wroff++] = a[roff];
+            cnt = roff + 1 < len && a[roff] == a[roff + 1] ? cnt + 1 : 0;
         }
-
-        /* Decrement the index */
-        --i;
+        /* 2. Avoid copy, identify the end of duplicate sequence. */
+        else if (a[roff] != a[roff - 1]) {
+            cnt = 0; // reset
+            --roff; // compensate for the increment above
+        }
     }
 
     /* Return */
-    return len;
+    return wroff;
 }
 
 /***********************************************************************/
@@ -82,11 +62,16 @@ void prn_array(int *a, int len)
 /***********************************************************************/
 int main()
 {           // 0  1  2  3  4  5  6  7  8  9  10 11  12
-    int a[] = {0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 3,  4};
+    #if 1
+    int a[] = {0, 0, 0, 0, 0, 1, 1, 1, 2, 2, 2, 2, 3, 3,  4};
+    #elif 0
+    int a[] = {1, 1, 2, 2, 2, 2, 3, 4, 4, 4, 5, 5, 6};
+    #elif 1
+    int a[] = {1,1,1,2};
+    #endif
     int len = sizeof(a) / sizeof(int);
     prn_array(a, len);
     len = removeDuplicates(a, len);
     prn_array(a, len);
     return 0;
 }
-
