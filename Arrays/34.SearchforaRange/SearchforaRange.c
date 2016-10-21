@@ -8,6 +8,34 @@
 #include <stdlib.h>
 
 /***********************************************************************/
+/* BinSearch: Binary search for a value                                */
+/*                                                                     */
+/***********************************************************************/
+int BinSearch(int *arr, int start, int end, int target)
+{
+    int s = start, e = end, mid;
+
+    /* Loop while start <= end */
+    while (s <= e)
+    {
+        /* If we have a hit, then return */
+        mid = (s + (e - s) / 2);
+        if (arr[mid] == target)
+            return mid;
+
+        /* If the target is smaller, then shift the end */
+        if (arr[mid] > target)
+            e = mid - 1;
+        /* Else shift the start */
+        else
+            s = mid + 1;
+    }
+
+    /* Return failure */
+    return -1;
+}
+
+/***********************************************************************/
 /* Given a sorted array of integers, find the starting and ending      */
 /* position of a given target value.                                   */
 /* Your algorithm's runtime complexity must be in the order of         */
@@ -19,58 +47,30 @@
 /***********************************************************************/
 int* searchRange(int* nums, int numsSize, int target, int* returnSize)
 {
-    int start = 0, end = numsSize - 1, mid;
-    int *range;
+    int *range = malloc(sizeof(int) * 2);
 
     /* Sanity */
-    if (!nums || !numsSize || !returnSize)
+    if (!nums || !numsSize || !returnSize || !range)
         return NULL;
-
-    /* Allocate the array to be returnd */
-    range = malloc(sizeof(int) * 2);
-    if (range == NULL)
-        return NULL;
-
-    /* Binary search loop */
-    while (start <= end)
-    {
-        /* Get the center of the array and compare */
-        mid = start + (end - start) / 2;
-        if (nums[mid] == target)
-        {
-            int s = mid, e = mid;
-
-            /* Seek to the first index location */
-            while ((s) && (nums[s - 1] == target))
-                s -= 1;
-            /* Seek to the last index location */
-            while (((e + 1) < numsSize) && (nums[e + 1] == target))
-                e += 1;
-
-            /* Set the return size and locations */
-            *returnSize = e - s + 1;
-            range[0] = s;
-            range[1] = e;
-
-            /* Return!!! */
-            return range;
-        }
-
-        /* Narrow the search window towards the left */
-        else if (nums[mid] > target)
-            end = mid - 1;
-
-        /* Narrow the search window towards the Right */
-        else if (nums[mid] < target)
-            start = mid + 1;
-    }
-
-    /* Sought but not found */
     *returnSize = 2;
-    range[0] = -1;
-    range[1] = -1;
+    range[0] = range[1] = -1;
+
+    /* Search for target. If it's not found, then return. */
+    if ((range[1] = range[0] = BinSearch(nums, 0, numsSize - 1, target)) < 0)
+        return range;
+
+    /* Seek to the end of the range */
+    while (range[1] < numsSize - 1 && nums[range[1] + 1] == target)
+        ++range[1];
+
+    /* Seek to the beginning range */
+    while (range[0] > 0 && nums[range[0] - 1] == target)
+        --range[0];
+
+    /* Return */
     return range;
 }
+
 
 /***********************************************************************/
 /* main: Entry point                                                   */
@@ -88,4 +88,3 @@ int main()
 
     return 0;
 }
-
