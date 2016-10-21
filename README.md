@@ -238,60 +238,65 @@ Count : 123
 
 + [101. Gray Code](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/51c41c677f356a3ce34a4a1e50eeff80aa59155c/Math/89.GrayCode/?at=master)
 
++ [102. Roman to Integer](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/e16cb7134b1b9f762e064905f18e292bc9bbe448/Math/13.RomantoInteger/?at=master)
+
++ [103. Integer to Roman](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/e16cb7134b1b9f762e064905f18e292bc9bbe448/Math/12.IntegertoRoman/?at=master)
+
+
 ****************************************************************
 ###[Tree]
 
-+ [102. Binary Tree Inorder Traversal](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/9859bdf60e4b5248c84974d76eab42a5e862ac38/Tree/94.BinaryTreeInorderTraversal/?at=master)
++ [104. Binary Tree Inorder Traversal](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/9859bdf60e4b5248c84974d76eab42a5e862ac38/Tree/94.BinaryTreeInorderTraversal/?at=master)
 
-+ [103. Unique Binary Search Trees II](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/9859bdf60e4b5248c84974d76eab42a5e862ac38/Tree/95.UniqueBinarySearchTreesII/?at=master)
++ [105. Unique Binary Search Trees II](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/9859bdf60e4b5248c84974d76eab42a5e862ac38/Tree/95.UniqueBinarySearchTreesII/?at=master)
 
-+ [104. Unique Binary Search Trees](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/9859bdf60e4b5248c84974d76eab42a5e862ac38/Tree/96.UniqueBinarySearchTrees/?at=master)
++ [106. Unique Binary Search Trees](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/9859bdf60e4b5248c84974d76eab42a5e862ac38/Tree/96.UniqueBinarySearchTrees/?at=master)
 
-+ [105. Validate Binary Search Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/3f2824811241cb70d3bf1f4a1783806394e49672/Tree/98.ValidateBinarySearchTree/?at=master)
++ [107. Validate Binary Search Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/3f2824811241cb70d3bf1f4a1783806394e49672/Tree/98.ValidateBinarySearchTree/?at=master)
 
-+ [106. Recover Binary Search Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/3f2824811241cb70d3bf1f4a1783806394e49672/Tree/99.RecoverBinarySearchTree/?at=master)
++ [108. Recover Binary Search Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/3f2824811241cb70d3bf1f4a1783806394e49672/Tree/99.RecoverBinarySearchTree/?at=master)
 
-+ [107. Same Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/3f2824811241cb70d3bf1f4a1783806394e49672/Tree/100.SameTree/?at=master)
++ [109. Same Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/3f2824811241cb70d3bf1f4a1783806394e49672/Tree/100.SameTree/?at=master)
 
-+ [108. Symmetric Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/6903404fb8db05f6b0c40bda5af12c7edb43381a/Tree/101.SymmetricTree/?at=master)
++ [110. Symmetric Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/6903404fb8db05f6b0c40bda5af12c7edb43381a/Tree/101.SymmetricTree/?at=master)
 
-+ [109. Binary Tree Level Order Traversal](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/6903404fb8db05f6b0c40bda5af12c7edb43381a/Tree/102.BinaryTreeLevelOrderTraversal/?at=master)
++ [111. Binary Tree Level Order Traversal](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/6903404fb8db05f6b0c40bda5af12c7edb43381a/Tree/102.BinaryTreeLevelOrderTraversal/?at=master)
 
-+ [110. Binary Tree Zigzag Level Order Traversal](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/6903404fb8db05f6b0c40bda5af12c7edb43381a/Tree/103.BinaryTreeZigzagLevelOrderTraversal/?at=master)
++ [112. Binary Tree Zigzag Level Order Traversal](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/6903404fb8db05f6b0c40bda5af12c7edb43381a/Tree/103.BinaryTreeZigzagLevelOrderTraversal/?at=master)
 
-+ [111. Maximum Depth of Binary Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/6903404fb8db05f6b0c40bda5af12c7edb43381a/Tree/104.MaximumDepthofBinaryTree/?at=master)
++ [113. Maximum Depth of Binary Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/6903404fb8db05f6b0c40bda5af12c7edb43381a/Tree/104.MaximumDepthofBinaryTree/?at=master)
 
-+ [112. Binary Tree Level Order Traversa lI](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/5586cc5a45a3a55f15be816c849b2ec55ea8b3a2/Tree/107.BinaryTreeLevelOrderTraversalII/?at=master)
++ [114. Binary Tree Level Order Traversa lI](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/5586cc5a45a3a55f15be816c849b2ec55ea8b3a2/Tree/107.BinaryTreeLevelOrderTraversalII/?at=master)
 
-+ [113. Convert Sorted Array to Binary Search Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/5586cc5a45a3a55f15be816c849b2ec55ea8b3a2/Tree/108.ConvertSortedArraytoBinarySearchTree/?at=master)
++ [115. Convert Sorted Array to Binary Search Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/5586cc5a45a3a55f15be816c849b2ec55ea8b3a2/Tree/108.ConvertSortedArraytoBinarySearchTree/?at=master)
 
-+ [114. Convert Sorted List to Binary Search Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/f5dcde740497b949a346050ea8ed556a923c90ee/Tree/109.ConvertSortedListtoBinarySearchTree/?at=master)
++ [116. Convert Sorted List to Binary Search Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/f5dcde740497b949a346050ea8ed556a923c90ee/Tree/109.ConvertSortedListtoBinarySearchTree/?at=master)
 
-+ [115. Balanced Binary Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/f0c21a43521817da173136aa689b8e61a715e270/Tree/110.BalancedBinaryTree/?at=master)
++ [117. Balanced Binary Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/f0c21a43521817da173136aa689b8e61a715e270/Tree/110.BalancedBinaryTree/?at=master)
 
-+ [116. Minimum Depth of Binary Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/f0c21a43521817da173136aa689b8e61a715e270/Tree/111.MinimumDepthofBinaryTree/?at=master)
++ [118. Minimum Depth of Binary Tree](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/f0c21a43521817da173136aa689b8e61a715e270/Tree/111.MinimumDepthofBinaryTree/?at=master)
 
-+ [117. Path Sum](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/f0c21a43521817da173136aa689b8e61a715e270/Tree/112.PathSum/?at=master)
++ [119. Path Sum](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/f0c21a43521817da173136aa689b8e61a715e270/Tree/112.PathSum/?at=master)
 
-+ [118. Path Sum II](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/f0c21a43521817da173136aa689b8e61a715e270/Tree/113.PathSumII/?at=master)
++ [120. Path Sum II](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/f0c21a43521817da173136aa689b8e61a715e270/Tree/113.PathSumII/?at=master)
 
-+ [119. Flatten Binary Tree to LinkedList](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/bbd94ab65e7adfe9578dd86a6d5da0671461137c/Tree/114.FlattenBinaryTreetoLinkedList/?at=master)
++ [121. Flatten Binary Tree to LinkedList](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/bbd94ab65e7adfe9578dd86a6d5da0671461137c/Tree/114.FlattenBinaryTreetoLinkedList/?at=master)
 
-+ [120. Populating Next Right Pointers in Each Node](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/dea74cff2dc29d9d75e5906d2422d7924d9cf213/Tree/116.PopulatingNextRightPointersinEachNode/?at=master)
++ [122. Populating Next Right Pointers in Each Node](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/dea74cff2dc29d9d75e5906d2422d7924d9cf213/Tree/116.PopulatingNextRightPointersinEachNode/?at=master)
 
-+ [121. Populating Next Right Pointers in Each Node II](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/dea74cff2dc29d9d75e5906d2422d7924d9cf213/Tree/117.PopulatingNextRightPointersinEachNodeII/?at=master)
++ [123. Populating Next Right Pointers in Each Node II](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/dea74cff2dc29d9d75e5906d2422d7924d9cf213/Tree/117.PopulatingNextRightPointersinEachNodeII/?at=master)
 
-+ [122. Binary Tree Maximum Path Sum](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/7c68fbba82118a23df33d1355b94c04f2c977a9d/Tree/124.BinaryTreeMaximumPathSum/?at=master)
++ [124. Binary Tree Maximum Path Sum](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/7c68fbba82118a23df33d1355b94c04f2c977a9d/Tree/124.BinaryTreeMaximumPathSum/?at=master)
 
 ****************************************************************
 
 ###[Hash Table]
-+ [123. Longest Consecutive Sequence](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/7d5b100d1ac9e59b37a63378a65c0ab3c7b24730/HashTable/128.LongestConsecutiveSequence/?at=master)
++ [125. Longest Consecutive Sequence](https://bitbucket.org/msreekan/algorithms-and-data-structures/src/7d5b100d1ac9e59b37a63378a65c0ab3c7b24730/HashTable/128.LongestConsecutiveSequence/?at=master)
 
 ****************************************************************
 
 ###[*Utils*]
 
-Generic utility routines are invoked by some of the above solutions.
+Generic utility routines (Binary Tree, Hash table, Stack, Queue etc) invoked by some of the above solutions.
 
 ***************************************************************
