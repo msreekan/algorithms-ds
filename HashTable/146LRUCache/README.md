@@ -1,24 +1,24 @@
 ******************************************************************************
 Problem Statement: [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 ******************************************************************************
-Given an unsorted array of integers, find the length of the longest
+Design and implement a data structure for Least Recently Used (LRU) cache.
 
-consecutive elements sequence.
+It should support the following operations: get and set.
 
-For example,
+get(key) - Get the value (will always be positive) of the key if the key 
 
-Given [100, 4, 200, 1, 3, 2],
+           exists in the cache, otherwise return -1.
 
-The longest consecutive elements sequence is [1, 2, 3, 4]. 
+set(key, value) - Set or insert the value if the key is not already present. 
 
-Return its length: 4.
+                   When the cache reached its capacity, it should invalidate
 
-Your algorithm should run in O(n) complexity.
+                   the least recently used item before inserting a new item.
 
 ******************************************************************************
 Notes: 
 ******************************************************************************
-Time Complexity : O(n * k) (k depends on bucket count)
+Time Complexity : O(n / k)
 
 Space Complexity : O(n)
 
