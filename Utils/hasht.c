@@ -210,7 +210,7 @@ int HashTDelete(void *handle, void *ptr)
 
             /* Get the bucket entry to set the pointer to NULL */
             be = &p->blist[p->hash_fn(ptr) % p->bcount];
-            be->start = NULL;
+            be->start = eh->next;
         }
         free(eh); // live free
     }
