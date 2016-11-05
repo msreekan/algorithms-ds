@@ -119,8 +119,8 @@ void PostorderBtree(struct TreeNode *root)
 {
     if (!root)
         return;
-    PreorderBtree(root->left);
-    PreorderBtree(root->right);
+    PostorderBtree(root->left);
+    PostorderBtree(root->right);
     printf("%d ", root->val);
 }
 
@@ -174,8 +174,8 @@ void PostorderBtreeArr(struct TreeNode *root, int **arr)
 {
     if (!root)
         return;
-    PreorderBtreeArr(root->left, arr);
-    PreorderBtreeArr(root->right, arr);
+    PostorderBtreeArr(root->left, arr);
+    PostorderBtreeArr(root->right, arr);
     **arr = root->val;
     (*arr) += 1;
 }

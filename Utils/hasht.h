@@ -16,4 +16,6 @@ void HashTFree(void *handle);
 int HashTAdd(void *handle, void *ptr);
 int HashTDelete(void *handle, void *ptr);
 void *HashTSearch(void *handle, void *ptr);
+int HashTRemap(void *handle, void *ptr);
+void *HashTRemove(void *handle, void *ptr);
 #endif // __HASHT_H__
