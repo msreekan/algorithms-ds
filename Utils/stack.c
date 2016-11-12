@@ -64,7 +64,7 @@ int StackPush(void *handle, void *ptr)
     struct ___stack *p = handle;
 
     /* Validate inputs */
-    if ((!handle || !ptr) || (p->top + p->ent_sz >= p->end))
+    if ((!handle || !ptr) || (p->top + p->ent_sz > p->end))
         return -1;
 
     /* Copy and increment the top */

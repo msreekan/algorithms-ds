@@ -22,4 +22,5 @@
 void PrintArray(int *arr, int len);
 int isAlphaNum(char s);
 int toLower(char s);
+void SwapChars(char *c1, char *c2);
 #endif // __GENERIC_H__

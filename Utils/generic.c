@@ -43,3 +43,14 @@ void PrintArray(int *arr, int len)
     for (i = 0; i < len; ++i)
         printf("%d ", arr[i]);
 }
+
+/***********************************************************************/
+/* SwapChars: Swap two characters                                      */
+/*                                                                     */
+/***********************************************************************/
+void SwapChars(char *c1, char *c2)
+{
+    int t = *c1;
+    *c1 = *c2;
+    *c2 = t;
+}
