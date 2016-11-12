@@ -16,4 +16,5 @@ int QueueAdd(void *handle, void *ptr);
 int QueueDel(void *handle, void *ptr);
 int QueueEmpty(void *handle);
 int QueueSzGet(void *handle);
+int QueueSearch(void *handle, void *ptr)
 #endif // __STACK_H__

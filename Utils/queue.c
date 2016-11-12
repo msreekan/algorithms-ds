@@ -133,3 +133,38 @@ int QueueSzGet(void *handle)
     return (p->end >= p->start) ? p->end - p->start :
                                   p->qsize - p->start + p->end;
 }
+
+/***********************************************************************/
+/* QueueSearch: Search for an entry in the queue                       */
+/*              handle = Queue handle                                  */
+/*                                                                     */
+/***********************************************************************/
+int QueueSearch(void *handle, void *ptr)
+{
+    struct ___queue *p = handle;
+    int ret = -1, s, e;
+
+    /* Validate */
+    if (!handle || !p)
+        return ret;
+
+    /* Search the queue */
+    s = p->start;
+    e = p->end;
+
+    /* Start from the beginning and loop till the end */
+    while (s != e)
+    {
+        /* If there is a match, then set return offset and break */
+        if (!memcmp(&p->ptr[s], ptr, p->entsz)) {
+            ret = p->start > s ? p->qsize - p->start + s :
+                                 s - p->start;
+            ret /= p->entsz;
+            break;
+        }
+        s = (s + p->entsz) % p->qsize; // increment/loop back
+    }
+
+    /* Return offset */
+    return ret;
+}
