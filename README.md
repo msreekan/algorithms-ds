@@ -3,7 +3,7 @@
 ****************************************************************
 
 ****************************************************************
-Count : 151
+Count : 155
 ****************************************************************
 
 ****************************************************************
@@ -172,179 +172,187 @@ Count : 151
 
 + [76. Maximum Gap](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/164.MaximumGap)
 
++ [77. Two Sum II - Input array is sorted](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/167.TwoSumII-Inputarrayissorted)
+
++ [78. Majority Element](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/169.MajorityElement)
+
 ****************************************************************
 
 ****************************************************************
 ###[Linked Lists]
 
-+ [77. Add Two Numbers](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/2.AddTwoNumbers)
++ [79. Add Two Numbers](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/2.AddTwoNumbers)
 
-+ [78. Merge Two Sorted Lists](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/21.MergeTwoSortedLists)
++ [80. Merge Two Sorted Lists](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/21.MergeTwoSortedLists)
 
-+ [79. Remove Nth Node From End of List](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/19.RemoveNthNodeFromEndofList)
++ [81. Remove Nth Node From End of List](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/19.RemoveNthNodeFromEndofList)
 
-+ [80. Merge k Sorted Lists](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/23.MergekSortedLists)
++ [82. Merge k Sorted Lists](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/23.MergekSortedLists)
 
-+ [81. Swap Nodes in Pairs](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/24.SwapNodesinPairs)
++ [83. Swap Nodes in Pairs](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/24.SwapNodesinPairs)
 
-+ [82. Rotate List](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/61.RotateList)
++ [84. Rotate List](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/61.RotateList)
 
-+ [83. Remove Duplicates from Sorted List II](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/82.RemoveDuplicatesfromSortedListII)
++ [85. Remove Duplicates from Sorted List II](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/82.RemoveDuplicatesfromSortedListII)
 
-+ [84. Partition List](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/86.PartitionList)
++ [86. Partition List](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/86.PartitionList)
 
-+ [85. Reverse List II](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/92.ReverseListII)
++ [87. Reverse List II](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/92.ReverseListII)
 
-+ [86. Reverse Nodes in k-Group](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/25.ReverseNodesink-Group)
++ [88. Reverse Nodes in k-Group](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/25.ReverseNodesink-Group)
 
-+ [87. Remove Duplicates from SortedList](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/83.RemoveDuplicatesfromSortedList)
++ [89. Remove Duplicates from SortedList](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/83.RemoveDuplicatesfromSortedList)
 
-+ [88. Copy List With Random Pointer](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/138.CopyListwithRandomPointer)
++ [90. Copy List With Random Pointer](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/138.CopyListwithRandomPointer)
 
-+ [89. Linked List Cycle](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/141.LinkedListCycle)
++ [91. Linked List Cycle](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/141.LinkedListCycle)
 
-+ [90. Linked List Cycle II](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/142.LinkedListCycleII)
++ [92. Linked List Cycle II](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/142.LinkedListCycleII)
 
-+ [91. Reorder List](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/143.ReorderList)
++ [93. Reorder List](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/143.ReorderList)
 
-+ [92. Insertion Sort List](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/147.InsertionSortList)
++ [94. Insertion Sort List](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/147.InsertionSortList)
 
-+ [93. Sort List](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/148.SortList)
++ [95. Sort List](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/148.SortList)
 
-+ [94. Intersection of Two Linked Lists](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/160.IntersectionofTwoLinkedLists)
++ [96. Intersection of Two Linked Lists](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/160.IntersectionofTwoLinkedLists)
 
 ****************************************************************
 
 ****************************************************************
 ###[Strings]
 
-+ [95. Longest Substring Without Repeating Characters](https://github.com/msreekan/algorithms-ds/tree/master/Strings/3.LongestSubstring)
++ [97. Longest Substring Without Repeating Characters](https://github.com/msreekan/algorithms-ds/tree/master/Strings/3.LongestSubstring)
 
-+ [96. Longest Palindromic Substring](https://github.com/msreekan/algorithms-ds/tree/master/Strings/5.LongestPalindromicSubstring)
++ [98. Longest Palindromic Substring](https://github.com/msreekan/algorithms-ds/tree/master/Strings/5.LongestPalindromicSubstring)
 
-+ [97. Longest Common Prefix](https://github.com/msreekan/algorithms-ds/tree/master/Strings/14.LongestCommonPrefix)
++ [99. Longest Common Prefix](https://github.com/msreekan/algorithms-ds/tree/master/Strings/14.LongestCommonPrefix)
 
-+ [98. Valid Parentheses](https://github.com/msreekan/algorithms-ds/tree/master/Strings/20.ValidParentheses)
++ [100. Valid Parentheses](https://github.com/msreekan/algorithms-ds/tree/master/Strings/20.ValidParentheses)
 
-+ [99. Count and Say](https://github.com/msreekan/algorithms-ds/tree/master/Strings/38.CountandSay)
++ [101. Count and Say](https://github.com/msreekan/algorithms-ds/tree/master/Strings/38.CountandSay)
 
-+ [100. Wildcard Matching](https://github.com/msreekan/algorithms-ds/tree/master/Strings/44.WildcardMatching)
++ [102. Wildcard Matching](https://github.com/msreekan/algorithms-ds/tree/master/Strings/44.WildcardMatching)
 
-+ [101. Implement strStr()](https://github.com/msreekan/algorithms-ds/tree/master/Strings/28.ImplementstrStr())
++ [103. Implement strStr()](https://github.com/msreekan/algorithms-ds/tree/master/Strings/28.ImplementstrStr())
 
-+ [102. String to Integer - atoi()](https://github.com/msreekan/algorithms-ds/tree/master/Strings/8.StringtoInteger(atoi))
++ [104. String to Integer - atoi()](https://github.com/msreekan/algorithms-ds/tree/master/Strings/8.StringtoInteger(atoi))
 
-+ [103. Group Anagrams](https://github.com/msreekan/algorithms-ds/tree/master/Strings/49.GroupAnagrams)
++ [105. Group Anagrams](https://github.com/msreekan/algorithms-ds/tree/master/Strings/49.GroupAnagrams)
 
-+ [104. Length of Last Word](https://github.com/msreekan/algorithms-ds/tree/master/Strings/58.LengthofLastWord)
++ [106. Length of Last Word](https://github.com/msreekan/algorithms-ds/tree/master/Strings/58.LengthofLastWord)
 
-+ [105. Valid Number](https://github.com/msreekan/algorithms-ds/tree/master/Strings/65.ValidNumber)
++ [107. Valid Number](https://github.com/msreekan/algorithms-ds/tree/master/Strings/65.ValidNumber)
 
-+ [106. Plus One](https://github.com/msreekan/algorithms-ds/tree/master/Strings/66.PlusOne)
++ [108. Plus One](https://github.com/msreekan/algorithms-ds/tree/master/Strings/66.PlusOne)
 
-+ [107. Add Binary](https://github.com/msreekan/algorithms-ds/tree/master/Strings/67.AddBinary)
++ [109. Add Binary](https://github.com/msreekan/algorithms-ds/tree/master/Strings/67.AddBinary)
 
-+ [108. Text Justification](https://github.com/msreekan/algorithms-ds/tree/master/Strings/68.TextJustification)
++ [110. Text Justification](https://github.com/msreekan/algorithms-ds/tree/master/Strings/68.TextJustification)
 
-+ [109. Simplify Path](https://github.com/msreekan/algorithms-ds/tree/master/Strings/71.SimplifyPath)
++ [111. Simplify Path](https://github.com/msreekan/algorithms-ds/tree/master/Strings/71.SimplifyPath)
 
-+ [110. Restore IP Addresses](https://github.com/msreekan/algorithms-ds/tree/master/Strings/93.RestoreIPAddresses)
++ [112. Restore IP Addresses](https://github.com/msreekan/algorithms-ds/tree/master/Strings/93.RestoreIPAddresses)
 
-+ [111. InterleavingString](https://github.com/msreekan/algorithms-ds/tree/master/Strings/97.InterleavingString)
++ [113. InterleavingString](https://github.com/msreekan/algorithms-ds/tree/master/Strings/97.InterleavingString)
 
-+ [112. Valid Palindrome](https://github.com/msreekan/algorithms-ds/tree/master/Strings/125.ValidPalindrome)
++ [114. Valid Palindrome](https://github.com/msreekan/algorithms-ds/tree/master/Strings/125.ValidPalindrome)
 
-+ [113. Reverse Words in a String](https://github.com/msreekan/algorithms-ds/tree/master/Strings/151.ReverseWordsinaString)
++ [115. Reverse Words in a String](https://github.com/msreekan/algorithms-ds/tree/master/Strings/151.ReverseWordsinaString)
 
-+ [114. Compare Version Numbers](https://github.com/msreekan/algorithms-ds/tree/master/Strings/165.CompareVersionNumbers)
++ [116. Compare Version Numbers](https://github.com/msreekan/algorithms-ds/tree/master/Strings/165.CompareVersionNumbers)
+
++ [117. Excel Sheet Column Title](https://github.com/msreekan/algorithms-ds/tree/master/Strings/168.ExcelSheetColumnTitle)
+
++ [118. Excel Sheet Column Number](https://github.com/msreekan/algorithms-ds/tree/master/Strings/171.ExcelSheetColumnNumber)
 
 ****************************************************************
 
 ****************************************************************
 ###[Math]
 
-+ [115. Reverse integer (Handles overflow)](https://github.com/msreekan/algorithms-ds/tree/master/Math/7.ReverseInteger)
++ [119. Reverse integer (Handles overflow)](https://github.com/msreekan/algorithms-ds/tree/master/Math/7.ReverseInteger)
 
-+ [116. Palindrome Number (In place and recursive)](https://github.com/msreekan/algorithms-ds/tree/master/Math/9.PalindromeNumber)
++ [120. Palindrome Number (In place and recursive)](https://github.com/msreekan/algorithms-ds/tree/master/Math/9.PalindromeNumber)
 
-+ [117. Divide Integers without divsion, mode or multiplication operators](https://github.com/msreekan/algorithms-ds/tree/master/Math/29.DivideTwoIntegers)
++ [121. Divide Integers without divsion, mode or multiplication operators](https://github.com/msreekan/algorithms-ds/tree/master/Math/29.DivideTwoIntegers)
 
-+ [118. Multiply Strings](https://github.com/msreekan/algorithms-ds/tree/master/Math/43.MultiplyStrings)
++ [122. Multiply Strings](https://github.com/msreekan/algorithms-ds/tree/master/Math/43.MultiplyStrings)
 
-+ [119. Pow(x, n)](https://github.com/msreekan/algorithms-ds/tree/master/Math/50.Pow(x%2C%20n))
++ [123. Pow(x, n)](https://github.com/msreekan/algorithms-ds/tree/master/Math/50.Pow(x%2C%20n))
 
-+ [120. Sqrt(x)](https://github.com/msreekan/algorithms-ds/tree/master/Math/69.Sqrt(x))
++ [124. Sqrt(x)](https://github.com/msreekan/algorithms-ds/tree/master/Math/69.Sqrt(x))
 
-+ [121. Gray Code](https://github.com/msreekan/algorithms-ds/tree/master/Math/89.GrayCode)
++ [125. Gray Code](https://github.com/msreekan/algorithms-ds/tree/master/Math/89.GrayCode)
 
-+ [122. Roman to Integer](https://github.com/msreekan/algorithms-ds/tree/master/Math/13.RomantoInteger)
++ [126. Roman to Integer](https://github.com/msreekan/algorithms-ds/tree/master/Math/13.RomantoInteger)
 
-+ [123. Integer to Roman](https://github.com/msreekan/algorithms-ds/tree/master/Math/12.IntegertoRoman)
++ [127. Integer to Roman](https://github.com/msreekan/algorithms-ds/tree/master/Math/12.IntegertoRoman)
 
-+ [124. MaxPointsonaLine](https://github.com/msreekan/algorithms-ds/tree/master/Math/149.MaxPointsonaLine)
++ [128. MaxPointsonaLine](https://github.com/msreekan/algorithms-ds/tree/master/Math/149.MaxPointsonaLine)
 
-+ [125. Fraction to Recurring Decimal](https://github.com/msreekan/algorithms-ds/tree/master/Math/166.FractiontoRecurringDecimal)
++ [129. Fraction to Recurring Decimal](https://github.com/msreekan/algorithms-ds/tree/master/Math/166.FractiontoRecurringDecimal)
 
 ****************************************************************
 ###[Tree]
 
-+ [126. Binary Tree Inorder Traversal](https://github.com/msreekan/algorithms-ds/tree/master/Tree/94.BinaryTreeInorderTraversal)
++ [130. Binary Tree Inorder Traversal](https://github.com/msreekan/algorithms-ds/tree/master/Tree/94.BinaryTreeInorderTraversal)
 
-+ [127. Unique Binary Search Trees II](https://github.com/msreekan/algorithms-ds/tree/master/Tree/95.UniqueBinarySearchTreesII)
++ [131. Unique Binary Search Trees II](https://github.com/msreekan/algorithms-ds/tree/master/Tree/95.UniqueBinarySearchTreesII)
 
-+ [128. Unique Binary Search Trees](https://github.com/msreekan/algorithms-ds/tree/master/Tree/96.UniqueBinarySearchTrees)
++ [132. Unique Binary Search Trees](https://github.com/msreekan/algorithms-ds/tree/master/Tree/96.UniqueBinarySearchTrees)
 
-+ [129. Validate Binary Search Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/98.ValidateBinarySearchTree)
++ [133. Validate Binary Search Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/98.ValidateBinarySearchTree)
 
-+ [130. Recover Binary Search Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/99.RecoverBinarySearchTree)
++ [134. Recover Binary Search Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/99.RecoverBinarySearchTree)
 
-+ [131. Same Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/100.SameTree)
++ [135. Same Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/100.SameTree)
 
-+ [132. Symmetric Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/101.SymmetricTree)
++ [136. Symmetric Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/101.SymmetricTree)
 
-+ [133. Binary Tree Level Order Traversal](https://github.com/msreekan/algorithms-ds/tree/master/Tree/102.BinaryTreeLevelOrderTraversal)
++ [137. Binary Tree Level Order Traversal](https://github.com/msreekan/algorithms-ds/tree/master/Tree/102.BinaryTreeLevelOrderTraversal)
 
-+ [134. Binary Tree Zigzag Level Order Traversal](https://github.com/msreekan/algorithms-ds/tree/master/Tree/103.BinaryTreeZigzagLevelOrderTraversal)
++ [138. Binary Tree Zigzag Level Order Traversal](https://github.com/msreekan/algorithms-ds/tree/master/Tree/103.BinaryTreeZigzagLevelOrderTraversal)
 
-+ [135. Maximum Depth of Binary Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/104.MaximumDepthofBinaryTree)
++ [139. Maximum Depth of Binary Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/104.MaximumDepthofBinaryTree)
 
-+ [136. Binary Tree Level Order Traversa lI](https://github.com/msreekan/algorithms-ds/tree/master/Tree/107.BinaryTreeLevelOrderTraversalII)
++ [140. Binary Tree Level Order Traversa lI](https://github.com/msreekan/algorithms-ds/tree/master/Tree/107.BinaryTreeLevelOrderTraversalII)
 
-+ [137. Convert Sorted Array to Binary Search Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/108.ConvertSortedArraytoBinarySearchTree)
++ [141. Convert Sorted Array to Binary Search Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/108.ConvertSortedArraytoBinarySearchTree)
 
-+ [138. Convert Sorted List to Binary Search Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/109.ConvertSortedListtoBinarySearchTree)
++ [142. Convert Sorted List to Binary Search Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/109.ConvertSortedListtoBinarySearchTree)
 
-+ [139. Balanced Binary Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/110.BalancedBinaryTree)
++ [143. Balanced Binary Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/110.BalancedBinaryTree)
 
-+ [140. Minimum Depth of Binary Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/111.MinimumDepthofBinaryTree)
++ [144. Minimum Depth of Binary Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/111.MinimumDepthofBinaryTree)
 
-+ [141. Path Sum](https://github.com/msreekan/algorithms-ds/tree/master/Tree/112.PathSum)
++ [145. Path Sum](https://github.com/msreekan/algorithms-ds/tree/master/Tree/112.PathSum)
 
-+ [142. Path Sum II](https://github.com/msreekan/algorithms-ds/tree/master/Tree/113.PathSumII)
++ [146. Path Sum II](https://github.com/msreekan/algorithms-ds/tree/master/Tree/113.PathSumII)
 
-+ [143. Flatten Binary Tree to LinkedList](https://github.com/msreekan/algorithms-ds/tree/master/Tree/114.FlattenBinaryTreetoLinkedList)
++ [147. Flatten Binary Tree to LinkedList](https://github.com/msreekan/algorithms-ds/tree/master/Tree/114.FlattenBinaryTreetoLinkedList)
 
-+ [144. Populating Next Right Pointers in Each Node](https://github.com/msreekan/algorithms-ds/tree/master/Tree/116.PopulatingNextRightPointersinEachNode)
++ [148. Populating Next Right Pointers in Each Node](https://github.com/msreekan/algorithms-ds/tree/master/Tree/116.PopulatingNextRightPointersinEachNode)
 
-+ [145. Populating Next Right Pointers in Each Node II](https://github.com/msreekan/algorithms-ds/tree/master/Tree/117.PopulatingNextRightPointersinEachNodeII)
++ [149. Populating Next Right Pointers in Each Node II](https://github.com/msreekan/algorithms-ds/tree/master/Tree/117.PopulatingNextRightPointersinEachNodeII)
 
-+ [146. Binary Tree Maximum Path Sum](https://github.com/msreekan/algorithms-ds/tree/master/Tree/124.BinaryTreeMaximumPathSum)
++ [150. Binary Tree Maximum Path Sum](https://github.com/msreekan/algorithms-ds/tree/master/Tree/124.BinaryTreeMaximumPathSum)
 
-+ [147. Binary Tree Preorder Traversal](https://github.com/msreekan/algorithms-ds/tree/master/Tree/144.BinaryTreePreorderTraversal)
++ [151. Binary Tree Preorder Traversal](https://github.com/msreekan/algorithms-ds/tree/master/Tree/144.BinaryTreePreorderTraversal)
 
-+ [148. Binary Tree Postorder Traversal](https://github.com/msreekan/algorithms-ds/tree/master/Tree/145.BinaryTreePostorderTraversal)
++ [152. Binary Tree Postorder Traversal](https://github.com/msreekan/algorithms-ds/tree/master/Tree/145.BinaryTreePostorderTraversal)
 
 ****************************************************************
 ###[Hash Table]
 
-+ [149. Longest Consecutive Sequence](https://github.com/msreekan/algorithms-ds/tree/master/HashTable/128.LongestConsecutiveSequence)
++ [153. Longest Consecutive Sequence](https://github.com/msreekan/algorithms-ds/tree/master/HashTable/128.LongestConsecutiveSequence)
 
-+ [150. LRU Cache](https://github.com/msreekan/algorithms-ds/tree/master/HashTable/146LRUCache)
++ [154. LRU Cache](https://github.com/msreekan/algorithms-ds/tree/master/HashTable/146LRUCache)
 
 ****************************************************************
 ###[Graph]
 
-+ [151. Clone Graph](https://github.com/msreekan/algorithms-ds/tree/master/Graph/133.CloneGraph)
++ [155. Clone Graph](https://github.com/msreekan/algorithms-ds/tree/master/Graph/133.CloneGraph)
 
 ****************************************************************
 
