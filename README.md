@@ -3,7 +3,7 @@
 ****************************************************************
 
 ****************************************************************
-Count : 155
+Count : 157
 ****************************************************************
 
 ****************************************************************
@@ -293,66 +293,70 @@ Count : 155
 
 + [129. Fraction to Recurring Decimal](https://github.com/msreekan/algorithms-ds/tree/master/Math/166.FractiontoRecurringDecimal)
 
++ [130. Factorial Trailing Zeroes](https://github.com/msreekan/algorithms-ds/tree/master/Math/172.FactorialTrailingZeroes)
+
 ****************************************************************
 ###[Tree]
 
-+ [130. Binary Tree Inorder Traversal](https://github.com/msreekan/algorithms-ds/tree/master/Tree/94.BinaryTreeInorderTraversal)
++ [131. Binary Tree Inorder Traversal](https://github.com/msreekan/algorithms-ds/tree/master/Tree/94.BinaryTreeInorderTraversal)
 
-+ [131. Unique Binary Search Trees II](https://github.com/msreekan/algorithms-ds/tree/master/Tree/95.UniqueBinarySearchTreesII)
++ [132. Unique Binary Search Trees II](https://github.com/msreekan/algorithms-ds/tree/master/Tree/95.UniqueBinarySearchTreesII)
 
-+ [132. Unique Binary Search Trees](https://github.com/msreekan/algorithms-ds/tree/master/Tree/96.UniqueBinarySearchTrees)
++ [133. Unique Binary Search Trees](https://github.com/msreekan/algorithms-ds/tree/master/Tree/96.UniqueBinarySearchTrees)
 
-+ [133. Validate Binary Search Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/98.ValidateBinarySearchTree)
++ [134. Validate Binary Search Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/98.ValidateBinarySearchTree)
 
-+ [134. Recover Binary Search Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/99.RecoverBinarySearchTree)
++ [135. Recover Binary Search Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/99.RecoverBinarySearchTree)
 
-+ [135. Same Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/100.SameTree)
++ [136. Same Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/100.SameTree)
 
-+ [136. Symmetric Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/101.SymmetricTree)
++ [137. Symmetric Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/101.SymmetricTree)
 
-+ [137. Binary Tree Level Order Traversal](https://github.com/msreekan/algorithms-ds/tree/master/Tree/102.BinaryTreeLevelOrderTraversal)
++ [138. Binary Tree Level Order Traversal](https://github.com/msreekan/algorithms-ds/tree/master/Tree/102.BinaryTreeLevelOrderTraversal)
 
-+ [138. Binary Tree Zigzag Level Order Traversal](https://github.com/msreekan/algorithms-ds/tree/master/Tree/103.BinaryTreeZigzagLevelOrderTraversal)
++ [139. Binary Tree Zigzag Level Order Traversal](https://github.com/msreekan/algorithms-ds/tree/master/Tree/103.BinaryTreeZigzagLevelOrderTraversal)
 
-+ [139. Maximum Depth of Binary Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/104.MaximumDepthofBinaryTree)
++ [140. Maximum Depth of Binary Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/104.MaximumDepthofBinaryTree)
 
-+ [140. Binary Tree Level Order Traversa lI](https://github.com/msreekan/algorithms-ds/tree/master/Tree/107.BinaryTreeLevelOrderTraversalII)
++ [141. Binary Tree Level Order Traversa lI](https://github.com/msreekan/algorithms-ds/tree/master/Tree/107.BinaryTreeLevelOrderTraversalII)
 
-+ [141. Convert Sorted Array to Binary Search Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/108.ConvertSortedArraytoBinarySearchTree)
++ [142. Convert Sorted Array to Binary Search Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/108.ConvertSortedArraytoBinarySearchTree)
 
-+ [142. Convert Sorted List to Binary Search Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/109.ConvertSortedListtoBinarySearchTree)
++ [143. Convert Sorted List to Binary Search Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/109.ConvertSortedListtoBinarySearchTree)
 
-+ [143. Balanced Binary Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/110.BalancedBinaryTree)
++ [144. Balanced Binary Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/110.BalancedBinaryTree)
 
-+ [144. Minimum Depth of Binary Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/111.MinimumDepthofBinaryTree)
++ [145. Minimum Depth of Binary Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/111.MinimumDepthofBinaryTree)
 
-+ [145. Path Sum](https://github.com/msreekan/algorithms-ds/tree/master/Tree/112.PathSum)
++ [146. Path Sum](https://github.com/msreekan/algorithms-ds/tree/master/Tree/112.PathSum)
 
-+ [146. Path Sum II](https://github.com/msreekan/algorithms-ds/tree/master/Tree/113.PathSumII)
++ [147. Path Sum II](https://github.com/msreekan/algorithms-ds/tree/master/Tree/113.PathSumII)
 
-+ [147. Flatten Binary Tree to LinkedList](https://github.com/msreekan/algorithms-ds/tree/master/Tree/114.FlattenBinaryTreetoLinkedList)
++ [148. Flatten Binary Tree to LinkedList](https://github.com/msreekan/algorithms-ds/tree/master/Tree/114.FlattenBinaryTreetoLinkedList)
 
-+ [148. Populating Next Right Pointers in Each Node](https://github.com/msreekan/algorithms-ds/tree/master/Tree/116.PopulatingNextRightPointersinEachNode)
++ [149. Populating Next Right Pointers in Each Node](https://github.com/msreekan/algorithms-ds/tree/master/Tree/116.PopulatingNextRightPointersinEachNode)
 
-+ [149. Populating Next Right Pointers in Each Node II](https://github.com/msreekan/algorithms-ds/tree/master/Tree/117.PopulatingNextRightPointersinEachNodeII)
++ [150. Populating Next Right Pointers in Each Node II](https://github.com/msreekan/algorithms-ds/tree/master/Tree/117.PopulatingNextRightPointersinEachNodeII)
 
-+ [150. Binary Tree Maximum Path Sum](https://github.com/msreekan/algorithms-ds/tree/master/Tree/124.BinaryTreeMaximumPathSum)
++ [151. Binary Tree Maximum Path Sum](https://github.com/msreekan/algorithms-ds/tree/master/Tree/124.BinaryTreeMaximumPathSum)
 
-+ [151. Binary Tree Preorder Traversal](https://github.com/msreekan/algorithms-ds/tree/master/Tree/144.BinaryTreePreorderTraversal)
++ [152. Binary Tree Preorder Traversal](https://github.com/msreekan/algorithms-ds/tree/master/Tree/144.BinaryTreePreorderTraversal)
 
-+ [152. Binary Tree Postorder Traversal](https://github.com/msreekan/algorithms-ds/tree/master/Tree/145.BinaryTreePostorderTraversal)
++ [153. Binary Tree Postorder Traversal](https://github.com/msreekan/algorithms-ds/tree/master/Tree/145.BinaryTreePostorderTraversal)
+
++ [154. Binary Search Tree Iterator](https://github.com/msreekan/algorithms-ds/tree/master/Tree/173.BinarySearchTreeIterator)
 
 ****************************************************************
 ###[Hash Table]
 
-+ [153. Longest Consecutive Sequence](https://github.com/msreekan/algorithms-ds/tree/master/HashTable/128.LongestConsecutiveSequence)
++ [155. Longest Consecutive Sequence](https://github.com/msreekan/algorithms-ds/tree/master/HashTable/128.LongestConsecutiveSequence)
 
-+ [154. LRU Cache](https://github.com/msreekan/algorithms-ds/tree/master/HashTable/146LRUCache)
++ [156. LRU Cache](https://github.com/msreekan/algorithms-ds/tree/master/HashTable/146LRUCache)
 
 ****************************************************************
 ###[Graph]
 
-+ [155. Clone Graph](https://github.com/msreekan/algorithms-ds/tree/master/Graph/133.CloneGraph)
++ [157. Clone Graph](https://github.com/msreekan/algorithms-ds/tree/master/Graph/133.CloneGraph)
 
 ****************************************************************
 
