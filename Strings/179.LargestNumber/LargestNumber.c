@@ -14,7 +14,6 @@
 /**********************************/
 #define MAX_STR_SZ 16
 
-
 /***********************************************************************/
 /* CompareStr: Compare two strings!                                    */
 /*                                                                     */
@@ -47,7 +46,6 @@ int CompareStr(char *s1, char *s2)
     /* Return the difference */
     return (int)(*ts1 - *ts2);
 }
-
 
 /***********************************************************************/
 /* GetPivot: Get the pivot!                                            */
@@ -93,7 +91,6 @@ void QuickSort(char **s, int start, int end)
 
     /* Get the pivot */
     pivot = GetPivot(s, start, end);
-
     /* Recursively quick sort */
     QuickSort(s, start, pivot - 1);
     QuickSort(s, pivot + 1, end);
