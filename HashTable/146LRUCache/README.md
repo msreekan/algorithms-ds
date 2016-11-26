@@ -1,5 +1,5 @@
 ******************************************************************************
-Problem Statement: [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+Problem Statement: [LRU Cache](https://leetcode.com/problems/lru-cache/)
 ******************************************************************************
 Design and implement a data structure for Least Recently Used (LRU) cache.
 
