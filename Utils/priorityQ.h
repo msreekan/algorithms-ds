@@ -4,18 +4,14 @@
 /* code form or as object code or assembly code, for any purpose,      */
 /* commercial or non-commercial, and by any means.                     */
 /***********************************************************************/
-#ifndef __STACK_H__
-#define __STACK_H__
+#ifndef __QUEUE_H__
+#define __QUEUE_H__
 
 /********************************************/
 /* Function Prototypes                      */
 /********************************************/
-void *StackAlloc(unsigned int, unsigned int );
-void StackFree(void *);
-int StackPush(void *, void *);
-int StackPop(void *, void *);
-int StackEmpty(void *handle);
-int StackGet(void *handle);
-int StackCopy(void *handle, unsigned char *buf);
-int StackPeek(void *handle, void *ptr);
+void *PQAlloc(int len, int esize, int (*pcb)(void *));
+int AddToPQ(void *handle, void *buf);
+int GetPQArr(void *handle, void **arr);
+void FreePQ(void *handle);
 #endif // __STACK_H__

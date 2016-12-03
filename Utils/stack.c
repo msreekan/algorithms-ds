@@ -8,6 +8,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "stack.h"
+
 /****************************************/
 /* Stack Data Structure                 */
 /****************************************/
@@ -92,6 +93,27 @@ int StackPop(void *handle, void *ptr)
     /* Copy and decrement the top */
     p->top -= p->ent_sz;
     memcpy(ptr, p->top, p->ent_sz);
+
+    /* Success */
+    return 0;
+}
+
+/***********************************************************************/
+/* StackPeek: Stack Peek                                               */
+/*            handle = Stack handle                                    */
+/*            ptr = Memory to pop                                      */
+/*                                                                     */
+/***********************************************************************/
+int StackPeek(void *handle, void *ptr)
+{
+    struct ___stack *p = handle;
+
+    /* Validate inputs */
+    if (!handle || !ptr || (p->top == p->ptr))
+        return -1;
+
+    /* Copy and the contents at the top */
+    memcpy(ptr, p->top - p->ent_sz, p->ent_sz);
 
     /* Success */
     return 0;
