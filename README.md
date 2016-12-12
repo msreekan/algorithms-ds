@@ -3,7 +3,7 @@
 ****************************************************************
 
 ****************************************************************
-Count : 164
+Count : 168
 ****************************************************************
 
 ****************************************************************
@@ -53,6 +53,10 @@ Count : 164
 + [21. Dungeon Game](https://github.com/msreekan/algorithms-ds/tree/master/Puzzles/174.DungeonGame)
 
 + [22. Best Time to Buy and Sell Stock](https://github.com/msreekan/algorithms-ds/tree/master/Puzzles/188.BestTimetoBuyandSellStockIV)
+
++ [23. House Robber](https://github.com/msreekan/algorithms-ds/tree/master/Puzzles/198.HouseRobber)
+
++ [24. NumberofIslands](https://github.com/msreekan/algorithms-ds/tree/master/Puzzles/200.NumberofIslands)
 
 ****************************************************************
 
@@ -309,6 +313,8 @@ Count : 164
 
 + [12. Factorial Trailing Zeroes](https://github.com/msreekan/algorithms-ds/tree/master/Math/172.FactorialTrailingZeroes)
 
++ [13. BitwiseANDofNumbersRange](https://github.com/msreekan/algorithms-ds/tree/master/Math/201.BitwiseANDofNumbersRange)
+
 ****************************************************************
 ###[Tree]
 
@@ -359,6 +365,8 @@ Count : 164
 + [23. Binary Tree Postorder Traversal](https://github.com/msreekan/algorithms-ds/tree/master/Tree/145.BinaryTreePostorderTraversal)
 
 + [24. Binary Search Tree Iterator](https://github.com/msreekan/algorithms-ds/tree/master/Tree/173.BinarySearchTreeIterator)
+
++ [25. Binary Tree Right Side View](https://github.com/msreekan/algorithms-ds/tree/master/Tree/199.BinaryTreeRightSideView)
 
 ****************************************************************
 ###[Hash Table]
