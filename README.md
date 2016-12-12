@@ -56,7 +56,7 @@ Count : 168
 
 + [23. House Robber](https://github.com/msreekan/algorithms-ds/tree/master/Puzzles/198.HouseRobber)
 
-+ [24. NumberofIslands](https://github.com/msreekan/algorithms-ds/tree/master/Puzzles/200.NumberofIslands)
++ [24. Number of Islands](https://github.com/msreekan/algorithms-ds/tree/master/Puzzles/200.NumberofIslands)
 
 ****************************************************************
 
