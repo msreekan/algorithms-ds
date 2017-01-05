@@ -3,7 +3,7 @@
 ****************************************************************
 
 ****************************************************************
-Count : 168
+Count : 170
 ****************************************************************
 
 ****************************************************************
@@ -231,6 +231,8 @@ Count : 168
 
 + [18. Intersection of Two Linked Lists](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/160.IntersectionofTwoLinkedLists)
 
++ [19. Remove Linked List Elements](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/203.RemoveLinkedListElements)
+
 ****************************************************************
 
 ****************************************************************
@@ -314,6 +316,8 @@ Count : 168
 + [12. Factorial Trailing Zeroes](https://github.com/msreekan/algorithms-ds/tree/master/Math/172.FactorialTrailingZeroes)
 
 + [13. BitwiseANDofNumbersRange](https://github.com/msreekan/algorithms-ds/tree/master/Math/201.BitwiseANDofNumbersRange)
+
++ [14.Happy Number](https://github.com/msreekan/algorithms-ds/tree/master/Math/202.HappyNumber)
 
 ****************************************************************
 ###[Tree]
