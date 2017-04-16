@@ -3,7 +3,7 @@
 ****************************************************************
 
 ****************************************************************
-Count : 170
+Count : 173
 ****************************************************************
 
 ****************************************************************
@@ -233,6 +233,9 @@ Count : 170
 
 + [19. Remove Linked List Elements](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/203.RemoveLinkedListElements)
 
++ [20. Reverse Linked List](https://github.com/msreekan/algorithms-ds/tree/master/Linked_List/206.ReverseLinkedList)
+
+
 ****************************************************************
 
 ****************************************************************
@@ -286,6 +289,9 @@ Count : 170
 
 + [24. Repeated DNA Sequences](https://github.com/msreekan/algorithms-ds/tree/master/Strings/187.RepeatedDNASequences)
 
++ [25. Isomorphic Strings](https://github.com/msreekan/algorithms-ds/tree/master/Strings/205.IsomorphicStrings)
+
+
 ****************************************************************
 
 ****************************************************************
@@ -318,6 +324,8 @@ Count : 170
 + [13. BitwiseANDofNumbersRange](https://github.com/msreekan/algorithms-ds/tree/master/Math/201.BitwiseANDofNumbersRange)
 
 + [14.Happy Number](https://github.com/msreekan/algorithms-ds/tree/master/Math/202.HappyNumber)
+
++ [15. Count Primes](https://github.com/msreekan/algorithms-ds/tree/master/Math/204.CountPrimes)
 
 ****************************************************************
 ###[Tree]
