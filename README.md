@@ -3,12 +3,11 @@
 ****************************************************************
 
 ****************************************************************
-Count : 173
+Count : 184
 ****************************************************************
 
 ****************************************************************
 ###[*Puzzles*]
-
 
 + [1. Container with most water](https://github.com/msreekan/algorithms-ds/tree/master/Puzzles/11.ContainerWithMostWater)
 
@@ -103,6 +102,10 @@ Count : 173
 
 + [20. Word Break II](https://github.com/msreekan/algorithms-ds/tree/master/Dynamic_Programming/140.WordBreakII)
 
++ [21. HouseRobber II](https://github.com/msreekan/algorithms-ds/tree/master/Dynamic_Programming/213.HouseRobberII)
+
++ [22. Combination Sum III](https://github.com/msreekan/algorithms-ds/tree/master/Dynamic_Programming/216.CombinationSumIII)
+
 ****************************************************************
 
 ****************************************************************
@@ -189,6 +192,12 @@ Count : 173
 + [40. Reverse Bits](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/190.ReverseBits)
 
 + [41. Numberof1Bits](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/191.Numberof1Bits)
+
++ [42. Minimum Size Subarray Sum](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/209.MinimumSizeSubarraySum)
+
++ [43. Kth Largest Element in an Array](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/215.KthLargestElementinanArray)
+
++ [44. Min Stack](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/155.MinStack)
 
 ****************************************************************
 
@@ -291,6 +300,9 @@ Count : 173
 
 + [25. Isomorphic Strings](https://github.com/msreekan/algorithms-ds/tree/master/Strings/205.IsomorphicStrings)
 
++ [26. Word Search II](https://github.com/msreekan/algorithms-ds/tree/master/Strings/212.WordSearchII)
+
++ [27. Shortest Palindrome](https://github.com/msreekan/algorithms-ds/tree/master/Strings/214.ShortestPalindrome)
 
 ****************************************************************
 
@@ -380,6 +392,10 @@ Count : 173
 
 + [25. Binary Tree Right Side View](https://github.com/msreekan/algorithms-ds/tree/master/Tree/199.BinaryTreeRightSideView)
 
++ [26. Implement Trie (PrefixTree)](https://github.com/msreekan/algorithms-ds/tree/master/Tree/208.ImplementTrie(PrefixTree))
+
++ [27. Add and Search Word - Data Structure Design](https://github.com/msreekan/algorithms-ds/tree/master/Tree/211.AddandSearchWord-Datastructuredesign)
+
 ****************************************************************
 ###[Hash Table]
 
@@ -391,6 +407,10 @@ Count : 173
 ###[Graph]
 
 + [1. Clone Graph](https://github.com/msreekan/algorithms-ds/tree/master/Graph/133.CloneGraph)
+
++ [2. Course Schedule](https://github.com/msreekan/algorithms-ds/tree/master/Graph/207.CourseSchedule)
+
++ [3. Course Schedule II](https://github.com/msreekan/algorithms-ds/tree/master/Graph/210.CourseScheduleII)
 
 ****************************************************************
 
