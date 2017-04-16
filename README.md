@@ -3,7 +3,7 @@
 ****************************************************************
 
 ****************************************************************
-Count : 184
+Count : 185
 ****************************************************************
 
 ****************************************************************
@@ -198,6 +198,8 @@ Count : 184
 + [43. Kth Largest Element in an Array](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/215.KthLargestElementinanArray)
 
 + [44. Min Stack](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/155.MinStack)
+
++ [45. Contains Duplicate](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/217.ContainsDuplicate)
 
 ****************************************************************
 
