@@ -3,7 +3,7 @@
 ****************************************************************
 
 ****************************************************************
-Count : 185
+Count : 189
 ****************************************************************
 
 ****************************************************************
@@ -57,6 +57,8 @@ Count : 185
 
 + [24. Number of Islands](https://github.com/msreekan/algorithms-ds/tree/master/Puzzles/200.NumberofIslands)
 
++ [25. The Skyline Problem](https://github.com/msreekan/algorithms-ds/tree/master/Puzzles/218.TheSkylineProblem)
+
 ****************************************************************
 
 ****************************************************************
@@ -105,6 +107,8 @@ Count : 185
 + [21. HouseRobber II](https://github.com/msreekan/algorithms-ds/tree/master/Dynamic_Programming/213.HouseRobberII)
 
 + [22. Combination Sum III](https://github.com/msreekan/algorithms-ds/tree/master/Dynamic_Programming/216.CombinationSumIII)
+
++ [23. Maximal Square](https://github.com/msreekan/algorithms-ds/tree/master/Dynamic_Programming/221.MaximalSquare)
 
 ****************************************************************
 
@@ -200,6 +204,10 @@ Count : 185
 + [44. Min Stack](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/155.MinStack)
 
 + [45. Contains Duplicate](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/217.ContainsDuplicate)
+
++ [46. ContainsDuplicateII](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/219.ContainsDuplicateII)
+
++ [47. ContainsDuplicateIII](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/220.ContainsDuplicateIII)
 
 ****************************************************************
 
