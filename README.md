@@ -3,7 +3,7 @@
 ****************************************************************
 
 ****************************************************************
-Count : 189
+Count : 200
 ****************************************************************
 
 ****************************************************************
@@ -209,6 +209,14 @@ Count : 189
 
 + [47. ContainsDuplicateIII](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/220.ContainsDuplicateIII)
 
++ [48. Implement Stack using Queues](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/225.ImplementStackusingQueues)
+
++ [49. Summary Ranges](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/228.SummaryRanges)
+
++ [50. Majority Element II](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/229.MajorityElementII)
+
++ [51. Implement Queue using Stacks](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/232.ImplementQueueusingStacks)
+
 ****************************************************************
 
 ****************************************************************
@@ -349,6 +357,14 @@ Count : 189
 
 + [15. Count Primes](https://github.com/msreekan/algorithms-ds/tree/master/Math/204.CountPrimes)
 
++ [16. Rectangle Area](https://github.com/msreekan/algorithms-ds/tree/master/Math/223.RectangleArea)
+
++ [17. Basic Calculator](https://github.com/msreekan/algorithms-ds/tree/master/Math/224.BasicCalculator)
+
++ [18. Basic Calculator II](https://github.com/msreekan/algorithms-ds/tree/master/Math/227.BasicCalculatorII)
+
++ [19. Power of Two](https://github.com/msreekan/algorithms-ds/tree/master/Math/231.PowerofTwo)
+
 ****************************************************************
 ###[Tree]
 
@@ -405,6 +421,12 @@ Count : 189
 + [26. Implement Trie (PrefixTree)](https://github.com/msreekan/algorithms-ds/tree/master/Tree/208.ImplementTrie(PrefixTree))
 
 + [27. Add and Search Word - Data Structure Design](https://github.com/msreekan/algorithms-ds/tree/master/Tree/211.AddandSearchWord-Datastructuredesign)
+
++ [28. Count Complete Tree Nodes](https://github.com/msreekan/algorithms-ds/tree/master/Tree/222.CountCompleteTreeNodes)
+
++ [29. Invert Binary Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/226.InvertBinaryTree)
+
++ [30. Kth Smallest Element in a BST](https://github.com/msreekan/algorithms-ds/tree/master/Tree/230.KthSmallestElementinaBST)
 
 ****************************************************************
 ###[Hash Table]
