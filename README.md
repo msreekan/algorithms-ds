@@ -110,6 +110,8 @@ Count : 206
 
 + [23. Maximal Square](https://github.com/msreekan/algorithms-ds/tree/master/Dynamic_Programming/221.MaximalSquare)
 
++ [24. Different Ways to Add Parentheses](https://github.com/msreekan/algorithms-ds/tree/master/Dynamic_Programming/241.DifferentWaystoAddParentheses)
+
 ****************************************************************
 
 ****************************************************************
@@ -221,6 +223,10 @@ Count : 206
 
 + [53. Sliding Window Maximum](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/239.SlidingWindowMaximum)
 
++ [54. Search a 2D Matrix II](https://github.com/msreekan/algorithms-ds/blob/master/Arrays/240.Searcha2DMatrixII/README.md)
+
++ [55. Single Number III](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/260.SingleNumberIII)
+
 ****************************************************************
 
 ****************************************************************
@@ -330,6 +336,8 @@ Count : 206
 
 + [27. Shortest Palindrome](https://github.com/msreekan/algorithms-ds/tree/master/Strings/214.ShortestPalindrome)
 
++ [28. Valid Anagram](https://github.com/msreekan/algorithms-ds/tree/master/Strings/242.ValidAnagram)
+
 ****************************************************************
 
 ****************************************************************
@@ -372,6 +380,12 @@ Count : 206
 + [18. Basic Calculator II](https://github.com/msreekan/algorithms-ds/tree/master/Math/227.BasicCalculatorII)
 
 + [19. Power of Two](https://github.com/msreekan/algorithms-ds/tree/master/Math/231.PowerofTwo)
+
++ [20. Add Digits](https://github.com/msreekan/algorithms-ds/tree/master/Math/258.AddDigits)
+
++ [21. Ugly Number](https://github.com/msreekan/algorithms-ds/tree/master/Math/263.UglyNumber)
+
++ [22. Ugly Number II](https://github.com/msreekan/algorithms-ds/tree/master/Math/264.UglyNumberII)
 
 ****************************************************************
 ###[Tree]
@@ -439,6 +453,8 @@ Count : 206
 + [31. Lowest Common Ancestor of a Binary Search Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/235.LowestCommonAncestorofaBinarySearchTree)
 
 + [32. Lowest Common Ancestor of a Binary Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/236.LowestCommonAncestorofaBinaryTree)
+
++ [33. Binary Tree Paths](https://github.com/msreekan/algorithms-ds/tree/master/Tree/257.BinaryTreePaths)
 
 ****************************************************************
 ###[Hash Table]
