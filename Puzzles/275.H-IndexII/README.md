@@ -1,5 +1,5 @@
 ******************************************************************************
-Problem Statement: [H-Index](https://leetcode.com/problems/h-index/#/description)
+Problem Statement: [H-Index II](https://leetcode.com/problems/h-index-ii/#/description)
 ******************************************************************************
 
 Given an array of citations (each citation is a non-negative integer) of a
@@ -23,6 +23,10 @@ each and the remaining two with no more than 3 citations each, his h-index is
 3. Note: If there are several possible values for h, the maximum one is taken
 
 as the h-index. 
+
+Follow up for H-Index: What if the citations array is sorted in ascending
+
+order? Could you optimize your algorithm? 
 
 ******************************************************************************
 Notes:
