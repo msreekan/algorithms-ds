@@ -3,7 +3,7 @@
 ****************************************************************
 
 ****************************************************************
-Count : 214
+Count : 226
 ****************************************************************
 
 ****************************************************************
@@ -59,6 +59,14 @@ Count : 214
 
 + [25. The Skyline Problem](https://github.com/msreekan/algorithms-ds/tree/master/Puzzles/218.TheSkylineProblem)
 
++ [26.  H-Index](https://github.com/msreekan/algorithms-ds/tree/master/Puzzles/274.H-Index)
+
++ [27. H-IndexII](https://github.com/msreekan/algorithms-ds/tree/master/Puzzles/275.H-IndexII)
+
++ [28. Nim Game](https://github.com/msreekan/algorithms-ds/tree/master/Puzzles/292.NimGame)
+
+
+
 ****************************************************************
 
 ****************************************************************
@@ -111,6 +119,11 @@ Count : 214
 + [23. Maximal Square](https://github.com/msreekan/algorithms-ds/tree/master/Dynamic_Programming/221.MaximalSquare)
 
 + [24. Different Ways to Add Parentheses](https://github.com/msreekan/algorithms-ds/tree/master/Dynamic_Programming/241.DifferentWaystoAddParentheses)
+
++ [25. Perfect Squares](https://github.com/msreekan/algorithms-ds/tree/master/Dynamic_Programming/279.PerfectSquares)
+
++ [26. Expression Add Operators](https://github.com/msreekan/algorithms-ds/tree/master/Dynamic_Programming/282.ExpressionAddOperators)
+
 
 ****************************************************************
 
@@ -227,6 +240,16 @@ Count : 214
 
 + [55. Single Number III](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/260.SingleNumberIII)
 
++ [56. Missing Number](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/268.MissingNumber)
+
++ [57. First Bad Version](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/278.FirstBadVersion)
+
++ [58. Move Zeroes](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/283.MoveZeroes)
+
++ [59. Find the Duplicate Number](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/287.FindtheDuplicateNumber)
+
+
+
 ****************************************************************
 
 ****************************************************************
@@ -338,6 +361,10 @@ Count : 214
 
 + [28. Valid Anagram](https://github.com/msreekan/algorithms-ds/tree/master/Strings/242.ValidAnagram)
 
++ [29. Integer to English Words](https://github.com/msreekan/algorithms-ds/tree/master/Strings/273.IntegertoEnglishWords)
+
++ [30. Word Pattern](https://github.com/msreekan/algorithms-ds/tree/master/Strings/290.WordPattern)
+`
 ****************************************************************
 
 ****************************************************************
@@ -455,6 +482,8 @@ Count : 214
 + [32. Lowest Common Ancestor of a Binary Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/236.LowestCommonAncestorofaBinaryTree)
 
 + [33. Binary Tree Paths](https://github.com/msreekan/algorithms-ds/tree/master/Tree/257.BinaryTreePaths)
+
++ [34. Serialize and Deserialize Binary Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/297.SerializeandDeserializeBinaryTree)
 
 ****************************************************************
 ###[Hash Table]
