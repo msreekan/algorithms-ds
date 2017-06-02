@@ -65,7 +65,7 @@ Count : 226
 
 + [28. Nim Game](https://github.com/msreekan/algorithms-ds/tree/master/Puzzles/292.NimGame)
 
-
++ [29. Game of Life](https://github.com/msreekan/algorithms-ds/tree/master/Puzzles/289.GameofLife)
 
 ****************************************************************
 
