@@ -24,7 +24,7 @@ double findMedian() - Return the median of all elements so far.
 ******************************************************************************
 Notes:
 
-Time Complexity : O(Log(n)) for addNum, O(1) for findMedian
+Time Complexity : O(Log(n)) for addNum, O(1) for findMedian.
                   Two heap solution.
 
 Space Complexity : O(n)
