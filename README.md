@@ -3,7 +3,7 @@
 ****************************************************************
 
 ****************************************************************
-Count : 227
+Count : 228
 ****************************************************************
 
 ****************************************************************
@@ -248,7 +248,7 @@ Count : 227
 
 + [59. Find the Duplicate Number](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/287.FindtheDuplicateNumber)
 
-
++ [60. Find Median from Data Stream](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/295.FindMedianfromDataStream)
 
 ****************************************************************
 
