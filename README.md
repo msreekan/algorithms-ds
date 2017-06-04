@@ -3,7 +3,7 @@
 ****************************************************************
 
 ****************************************************************
-Count : 228
+Count : 230
 ****************************************************************
 
 ****************************************************************
@@ -123,6 +123,8 @@ Count : 228
 + [25. Perfect Squares](https://github.com/msreekan/algorithms-ds/tree/master/Dynamic_Programming/279.PerfectSquares)
 
 + [26. Expression Add Operators](https://github.com/msreekan/algorithms-ds/tree/master/Dynamic_Programming/282.ExpressionAddOperators)
+
++ [27. Longest Increasing Subsequence](https://github.com/msreekan/algorithms-ds/tree/master/Dynamic_Programming/300.LongestIncreasingSubsequence)
 
 
 ****************************************************************
@@ -364,6 +366,8 @@ Count : 228
 + [29. Integer to English Words](https://github.com/msreekan/algorithms-ds/tree/master/Strings/273.IntegertoEnglishWords)
 
 + [30. Word Pattern](https://github.com/msreekan/algorithms-ds/tree/master/Strings/290.WordPattern)
+
++ [31. Bulls and Cows](https://github.com/msreekan/algorithms-ds/tree/master/Strings/299.BullsAndCows)
 `
 ****************************************************************
 
