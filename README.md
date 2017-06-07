@@ -3,7 +3,7 @@
 ****************************************************************
 
 ****************************************************************
-Count : 230
+Count : 233
 ****************************************************************
 
 ****************************************************************
@@ -252,6 +252,10 @@ Count : 230
 
 + [60. Find Median from Data Stream](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/295.FindMedianfromDataStream)
 
++ [61. Range Sum Query - Immutable](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/303.RangeSumQuery-Immutable)
+
++ [62. Range Sum Query 2D - Immutable](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/304.RangeSumQuery2D-Immutable)
+
 ****************************************************************
 
 ****************************************************************
@@ -367,7 +371,9 @@ Count : 230
 
 + [30. Word Pattern](https://github.com/msreekan/algorithms-ds/tree/master/Strings/290.WordPattern)
 
-+ [31. Bulls and Cows](https://github.com/msreekan/algorithms-ds/tree/master/Strings/299.BullsAndCows)
++ [31. Bulls and Cows](https://github.com/msreekan/algorithms-ds/tree/master/Strings/299.BullsAndCows)\
+
++ [32. Additive Number](https://github.com/msreekan/algorithms-ds/tree/master/Strings/306.AdditiveNumber)
 `
 ****************************************************************
 
