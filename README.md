@@ -3,7 +3,7 @@
 ****************************************************************
 
 ****************************************************************
-Count : 233
+Count : 236
 ****************************************************************
 
 ****************************************************************
@@ -66,6 +66,8 @@ Count : 233
 + [28. Nim Game](https://github.com/msreekan/algorithms-ds/tree/master/Puzzles/292.NimGame)
 
 + [29. Game of Life](https://github.com/msreekan/algorithms-ds/tree/master/Puzzles/289.GameofLife)
+
++ [30. Best Time to Buy and Sell Stock with Cooldown](https://github.com/msreekan/algorithms-ds/tree/master/Puzzles/309.BestTimetoBuyandSellStockwithCooldown)
 
 ****************************************************************
 
@@ -495,6 +497,8 @@ Count : 233
 
 + [34. Serialize and Deserialize Binary Tree](https://github.com/msreekan/algorithms-ds/tree/master/Tree/297.SerializeandDeserializeBinaryTree)
 
++ [35. Range Sum Query](https://github.com/msreekan/algorithms-ds/tree/master/Tree/307.RangeSumQuery-Mutable)
+
 ****************************************************************
 ###[Hash Table]
 
@@ -511,6 +515,7 @@ Count : 233
 
 + [3. Course Schedule II](https://github.com/msreekan/algorithms-ds/tree/master/Graph/210.CourseScheduleII)
 
++ [4. Minimum Height Trees](https://github.com/msreekan/algorithms-ds/tree/master/Graph/310.MinimumHeightTrees)
 ****************************************************************
 
 ###[*Utils*]
