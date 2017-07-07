@@ -128,6 +128,10 @@ Count : 236
 
 + [27. Longest Increasing Subsequence](https://github.com/msreekan/algorithms-ds/tree/master/Dynamic_Programming/300.LongestIncreasingSubsequence)
 
++ [28. Burst Balloons](https://github.com/msreekan/algorithms-ds/tree/master/Dynamic_Programming/312.BurstBalloons)
+
++ [29. Super Ugly Number](https://github.com/msreekan/algorithms-ds/tree/master/Dynamic_Programming/313.SuperUglyNumber)
+
 
 ****************************************************************
 
@@ -258,6 +262,8 @@ Count : 236
 
 + [62. Range Sum Query 2D - Immutable](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/304.RangeSumQuery2D-Immutable)
 
++ [63. Count of Smaller Numbers After Self](https://github.com/msreekan/algorithms-ds/tree/master/Arrays/315.CountofSmallerNumbersAfterSelf)
+
 ****************************************************************
 
 ****************************************************************
@@ -376,6 +382,8 @@ Count : 236
 + [31. Bulls and Cows](https://github.com/msreekan/algorithms-ds/tree/master/Strings/299.BullsAndCows)\
 
 + [32. Additive Number](https://github.com/msreekan/algorithms-ds/tree/master/Strings/306.AdditiveNumber)
+
++ [33. Remove Duplicate Letters](https://github.com/msreekan/algorithms-ds/tree/master/Strings/316.RemoveDuplicateLetters)
 `
 ****************************************************************
 
